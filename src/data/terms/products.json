@@ -1,0 +1,882 @@
+[
+  {
+    "id": "pd-securities-account",
+    "term": "증권계좌",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "주식·펀드 등을 사고팔기 위해 증권사에 여는 투자용 계좌",
+    "example": "주식을 사려면 먼저 이 계좌를 열고 돈을 넣어 둬야 해요."
+  },
+  {
+    "id": "pd-term-deposit",
+    "term": "정기예금",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "목돈을 정해진 기간 맡기고 약속된 이자를 받는 은행 상품",
+    "example": "1년 동안 쓰지 않을 돈을 안전하게 묶어 둘 때 많이 써요."
+  },
+  {
+    "id": "pd-installment-savings",
+    "term": "정기적금",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "매달 정해진 금액을 꾸준히 넣고 만기에 원금과 이자를 받는 상품",
+    "example": "월급에서 매달 30만 원씩 모아 1년 뒤 목돈을 만드는 식이에요."
+  },
+  {
+    "id": "pd-free-savings",
+    "term": "자유적금",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "넣는 금액과 날짜를 그때그때 자유롭게 정할 수 있는 적금",
+    "example": "수입이 들쭉날쭉한 프리랜서가 형편껏 모을 때 편해요."
+  },
+  {
+    "id": "pd-checking-account",
+    "term": "입출금통장",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "언제든 돈을 넣고 뺄 수 있는 가장 기본적인 은행 계좌",
+    "example": "월급 받고 카드값 나가는 생활비 통장이 보통 이거예요."
+  },
+  {
+    "id": "pd-parking-account",
+    "term": "파킹통장",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "수시로 넣고 빼면서도 비교적 높은 금리를 주는 통장",
+    "example": "잠깐 쉬게 할 비상금을 '주차'해 두는 곳이라 이렇게 불러요."
+  },
+  {
+    "id": "pd-cma",
+    "term": "CMA",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "맡긴 돈을 단기 금융상품에 굴려 하루만 넣어도 이자가 붙는 증권사 계좌",
+    "example": "투자 대기 자금을 놀리지 않고 넣어 두는 용도로 많이 써요."
+  },
+  {
+    "id": "pd-mmf",
+    "term": "MMF",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "만기가 아주 짧은 채권·어음에 투자하는 수시 입출금형 단기 펀드",
+    "example": "며칠~몇 주 쓸 돈을 잠깐 굴릴 때 쓰는데 예금자보호는 안 돼요."
+  },
+  {
+    "id": "pd-fund",
+    "term": "펀드",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "여러 사람의 돈을 모아 전문가가 대신 투자하고 성과를 나누는 상품",
+    "example": "소액으로도 수십 개 종목에 한꺼번에 투자하는 효과가 있어요."
+  },
+  {
+    "id": "pd-equity-fund",
+    "term": "주식형 펀드",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "모은 돈의 대부분을 주식에 투자해 수익과 위험이 큰 편인 펀드",
+    "example": "오래 묻어 둘 돈으로 높은 성장을 노릴 때 고려해요."
+  },
+  {
+    "id": "pd-bond-fund",
+    "term": "채권형 펀드",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "모은 돈을 주로 국채·회사채 같은 빚 증서에 투자하는 펀드",
+    "example": "주식보다 출렁임이 작아 안정적인 수익을 원하는 사람이 써요."
+  },
+  {
+    "id": "pd-mixed-fund",
+    "term": "혼합형 펀드",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "주식과 채권을 섞어 담아 위험과 수익의 균형을 맞춘 펀드",
+    "example": "주식형은 무섭고 채권형은 심심할 때 중간 선택지예요."
+  },
+  {
+    "id": "pd-index-fund",
+    "term": "인덱스펀드",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "코스피200 같은 지수를 그대로 따라가도록 만든 펀드",
+    "example": "종목을 고르지 않아 비용이 싸고 시장 평균 수익을 노려요."
+  },
+  {
+    "id": "pd-active-fund",
+    "term": "액티브펀드",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "매니저가 종목을 직접 골라 지수보다 높은 수익을 노리는 펀드",
+    "example": "잘하면 시장을 이기지만 보수가 비싸고 못 따라갈 수도 있어요."
+  },
+  {
+    "id": "pd-isa",
+    "term": "ISA",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "한 계좌에서 예금·펀드·주식 등에 투자하며 세제 혜택을 받는 종합 계좌",
+    "example": "개인종합자산관리계좌의 줄임말로, 의무 가입 기간이 있어요."
+  },
+  {
+    "id": "pd-pension-savings",
+    "term": "연금저축",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "노후 자금을 쌓으며 세액공제를 받고 55세 이후 연금으로 받는 상품",
+    "example": "연말정산 때 세금을 돌려받는 효과로 직장인에게 인기예요."
+  },
+  {
+    "id": "pd-irp",
+    "term": "IRP",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "퇴직금을 옮겨 받거나 스스로 노후자금을 더 쌓는 개인형 퇴직연금 계좌",
+    "example": "이직하면서 받은 퇴직금이 보통 이 계좌로 들어와요."
+  },
+  {
+    "id": "pd-retirement-pension",
+    "term": "퇴직연금",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "회사가 직원 퇴직급여를 외부 금융회사에 맡겨 쌓아 두는 제도",
+    "example": "회사가 망해도 퇴직금을 지킬 수 있게 밖에 따로 모아 둬요."
+  },
+  {
+    "id": "pd-deposit-insurance",
+    "term": "예금자보호",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "금융회사가 망해도 정해진 한도까지 예금을 대신 돌려주는 제도",
+    "example": "2025년 9월부터 한 금융회사당 원금과 이자 합쳐 1억 원까지 보호돼요."
+  },
+  {
+    "id": "pd-ipo-subscription",
+    "term": "공모주 청약",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "상장 전 새로 파는 주식을 일반 투자자가 신청해 배정받는 것",
+    "example": "청약하려면 주관 증권사 계좌가 필요한 경우가 많아요."
+  },
+  {
+    "id": "pd-fractional-investing",
+    "term": "소수점 투자",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "1주 단위가 아니라 0.1주처럼 쪼개서 주식을 사는 방식",
+    "example": "비싼 해외 주식도 몇천 원어치씩 살 수 있어요."
+  },
+  {
+    "id": "pd-robo-advisor",
+    "term": "로보어드바이저",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "알고리즘이 투자 성향에 맞춰 자산 배분과 관리를 해 주는 서비스",
+    "example": "사람 상담 대신 프로그램이 포트폴리오를 짜고 조정해 줘요."
+  },
+  {
+    "id": "pd-non-face-account",
+    "term": "비대면 계좌개설",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "지점에 가지 않고 앱에서 신분 확인을 거쳐 계좌를 여는 것",
+    "example": "신분증 촬영과 본인 명의 계좌 인증으로 10분이면 끝나요."
+  },
+  {
+    "id": "pd-deposit-cash",
+    "term": "예수금",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "증권계좌에 들어 있지만 아직 투자하지 않은 대기 현금",
+    "example": "주식을 팔면 대금이 바로가 아니라 결제일에 이 돈으로 들어와요."
+  },
+  {
+    "id": "pd-early-termination",
+    "term": "중도해지",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "예·적금을 만기 전에 깨서 돈을 찾는 것",
+    "example": "약속한 이자보다 훨씬 낮은 이자만 받게 되니 주의해요."
+  },
+  {
+    "id": "pd-principal-guaranteed",
+    "term": "원금보장형 상품",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "결과와 상관없이 처음 넣은 돈은 돌려주기로 약속된 상품",
+    "example": "보장은 발행한 회사가 지급 능력이 있을 때만 의미가 있어요."
+  },
+  {
+    "id": "pd-lump-sum",
+    "term": "거치식",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "목돈을 한 번에 넣어 두고 기간 동안 그대로 두는 방식",
+    "example": "보너스 1,000만 원을 한꺼번에 펀드에 넣는 식이에요."
+  },
+  {
+    "id": "pd-redemption",
+    "term": "환매",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "갖고 있던 펀드를 팔아 투자금을 돌려받는 것",
+    "example": "신청 후 돈이 들어오기까지 며칠 걸리는 경우가 많아요."
+  },
+  {
+    "id": "pd-fund-manager",
+    "term": "펀드매니저",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "펀드 돈을 어디에 얼마나 투자할지 결정하고 운용하는 전문가",
+    "example": "액티브펀드는 이 사람의 실력이 성과를 크게 좌우해요."
+  },
+  {
+    "id": "pd-asset-manager",
+    "term": "자산운용사",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "펀드와 ETF를 만들어 고객 돈을 굴리는 회사",
+    "example": "은행·증권사는 판매 창구이고 실제 운용은 이 회사가 해요."
+  },
+  {
+    "id": "pd-distributor",
+    "term": "판매사",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "자산운용사가 만든 펀드를 고객에게 파는 은행·증권사",
+    "example": "같은 펀드도 어디서 사느냐에 따라 수수료가 다를 수 있어요."
+  },
+  {
+    "id": "pd-fx-deposit",
+    "term": "외화예금",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "달러·엔화 등 외국 돈으로 맡겨 두는 예금",
+    "example": "여행이나 유학 자금을 미리 바꿔 둘 때 써요. 환율 변동은 감수해야 해요."
+  },
+  {
+    "id": "pd-preferential-rate",
+    "term": "우대금리",
+    "category": "계좌·상품",
+    "level": 1,
+    "short": "급여이체 등 조건을 채우면 기본 금리에 얹어 주는 추가 금리",
+    "example": "광고 최고 금리는 이것까지 다 채웠을 때 숫자예요."
+  },
+  {
+    "id": "pd-isa-brokerage",
+    "term": "중개형 ISA",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "투자자가 직접 국내 주식·ETF 등을 골라 사고파는 절세 계좌 유형",
+    "example": "증권사에서만 만들 수 있고 주식 직접 투자가 가능해요."
+  },
+  {
+    "id": "pd-isa-trust",
+    "term": "신탁형 ISA",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "투자자가 상품을 지정하면 금융회사가 그대로 담아 주는 절세 계좌 유형",
+    "example": "예금 같은 안전 상품 위주로 담고 싶을 때 쓰곤 해요."
+  },
+  {
+    "id": "pd-isa-discretionary",
+    "term": "일임형 ISA",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "전문가가 짜 둔 모델 포트폴리오에 운용을 통째로 맡기는 절세 계좌 유형",
+    "example": "직접 고르기 어렵다면 맡기는 대신 일임 수수료를 내요."
+  },
+  {
+    "id": "pd-pension-fund",
+    "term": "연금저축펀드",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "증권사에서 가입해 ETF·펀드를 직접 골라 굴리는 연금저축 유형",
+    "example": "납입 금액과 시기를 자유롭게 정할 수 있어요."
+  },
+  {
+    "id": "pd-pension-insurance",
+    "term": "연금저축보험",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "보험사에서 가입해 정해진 보험료를 내고 공시이율로 쌓는 연금저축",
+    "example": "원금 손실 위험은 작지만 초기에 해지하면 손해가 커요."
+  },
+  {
+    "id": "pd-pension-trust",
+    "term": "연금저축신탁",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "은행이 운용하던 연금저축 유형으로 현재는 신규 가입이 막힌 상품",
+    "example": "2018년부터 새로 가입할 수 없고 기존 가입자만 유지해요."
+  },
+  {
+    "id": "pd-dc-pension",
+    "term": "DC형 퇴직연금",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "회사가 매년 부담금을 넣어 주고 근로자가 직접 굴리는 확정기여형",
+    "example": "운용 결과에 따라 받을 퇴직급여가 늘거나 줄어요."
+  },
+  {
+    "id": "pd-db-pension",
+    "term": "DB형 퇴직연금",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "받을 퇴직급여가 미리 정해져 있고 운용 책임은 회사가 지는 확정급여형",
+    "example": "임금이 꾸준히 오르는 회사라면 유리할 수 있어요."
+  },
+  {
+    "id": "pd-pension-account",
+    "term": "연금계좌",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "연금저축과 IRP를 함께 묶어 부르는 노후 대비 계좌",
+    "example": "세액공제 한도도 두 계좌를 합쳐서 따지는 경우가 많아요."
+  },
+  {
+    "id": "pd-tdf",
+    "term": "TDF",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "은퇴 시점에 맞춰 주식 비중을 알아서 줄여 가는 펀드",
+    "example": "이름 뒤 숫자 2045는 2045년쯤 은퇴할 사람용이라는 뜻이에요."
+  },
+  {
+    "id": "pd-tif",
+    "term": "TIF",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "은퇴 후 모아 둔 돈에서 꾸준한 현금 흐름을 내도록 설계된 펀드",
+    "example": "노후에 매달 생활비처럼 분배금을 받는 데 초점을 둬요."
+  },
+  {
+    "id": "pd-nav-price",
+    "term": "기준가",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "펀드 1좌의 가치로, 하루 한 번 계산되어 매매에 쓰이는 가격",
+    "example": "펀드는 주식처럼 실시간이 아니라 이 값으로 사고팔아요."
+  },
+  {
+    "id": "pd-total-expense",
+    "term": "총보수",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "운용·판매·관리 대가로 펀드 자산에서 해마다 떼는 비용",
+    "example": "0.1%와 1%의 차이도 10년 넘으면 수익을 크게 갈라요."
+  },
+  {
+    "id": "pd-sales-load",
+    "term": "판매수수료",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "펀드에 가입하거나 팔 때 판매사가 한 번 떼는 비용",
+    "example": "A클래스는 가입할 때 이 비용을 먼저 내는 구조예요."
+  },
+  {
+    "id": "pd-fund-class",
+    "term": "펀드 클래스",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "같은 펀드라도 수수료 구조에 따라 A·C·S처럼 나눈 종류",
+    "example": "오래 둘 거면 선취형, 짧게 둘 거면 후취 없는 쪽을 따져 봐요."
+  },
+  {
+    "id": "pd-redemption-fee",
+    "term": "환매수수료",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "가입 후 정해진 기간 안에 펀드를 팔면 붙는 벌칙성 비용",
+    "example": "단기 매매를 막으려는 장치로, 상품설명서에서 기간을 확인해요."
+  },
+  {
+    "id": "pd-leveraged-etf",
+    "term": "레버리지 ETF",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "기초지수 하루 수익률의 2배 같은 배수로 움직이도록 만든 상장펀드",
+    "example": "지수가 1% 오르면 약 2% 오르지만, 내릴 때도 두 배로 빠져요."
+  },
+  {
+    "id": "pd-inverse-etf",
+    "term": "인버스 ETF",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "기초지수 하루 수익률과 반대로 움직이도록 만든 상장펀드",
+    "example": "시장이 내릴 때 수익이 나서 하락 대비용으로 쓰여요."
+  },
+  {
+    "id": "pd-theme-etf",
+    "term": "테마 ETF",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "2차전지·AI처럼 특정 산업 이야기에 묶인 종목들을 담은 상장펀드",
+    "example": "유행을 타서 고점에 출시되고 크게 빠지는 경우도 많아요."
+  },
+  {
+    "id": "pd-bond-etf",
+    "term": "채권 ETF",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "국채·회사채 묶음을 담아 주식처럼 거래소에서 사고파는 펀드",
+    "example": "금리가 내리면 가격이 오르는 채권 성격을 그대로 가져요."
+  },
+  {
+    "id": "pd-etn",
+    "term": "ETN",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "증권사가 지수 수익률을 지급하겠다고 약속하고 발행해 상장한 채권형 증권",
+    "example": "발행 증권사가 망하면 돈을 못 받을 수 있는 신용 위험이 있어요."
+  },
+  {
+    "id": "pd-public-fund",
+    "term": "공모펀드",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "불특정 다수에게 공개적으로 모집하며 규제와 공시가 엄격한 펀드",
+    "example": "은행·증권사 앱에서 흔히 보는 펀드가 대부분 이 유형이에요."
+  },
+  {
+    "id": "pd-reits",
+    "term": "리츠",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "투자자 돈으로 빌딩·물류센터 등을 사서 임대수익을 나눠 주는 회사",
+    "example": "상장된 것은 주식처럼 소액으로 부동산에 투자할 수 있어요."
+  },
+  {
+    "id": "pd-els",
+    "term": "ELS",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "주가나 지수가 정해진 범위에 있으면 약속한 수익을 주는 파생결합증권",
+    "example": "조건이 깨지면 큰 원금 손실이 날 수 있는 구조예요."
+  },
+  {
+    "id": "pd-issued-note",
+    "term": "발행어음",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "대형 증권사가 자기 신용으로 발행해 약정 이자를 주는 단기 상품",
+    "example": "예금처럼 보이지만 예금자보호는 안 되고 증권사 신용에 기대요."
+  },
+  {
+    "id": "pd-rp",
+    "term": "RP",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "금융회사가 일정 기간 뒤 다시 사들이기로 약속하고 파는 채권 상품",
+    "example": "환매조건부채권의 줄임말로, 짧게 확정 이자를 받을 때 써요."
+  },
+  {
+    "id": "pd-cma-rp",
+    "term": "CMA RP형",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "고객 돈을 환매조건부채권에 투자해 약정 금리를 주는 증권사 계좌 유형",
+    "example": "수익률이 미리 정해져 있어 이해하기 쉬운 편이에요."
+  },
+  {
+    "id": "pd-wrap-account",
+    "term": "랩어카운트",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "증권사가 고객 자산을 맡아 한 계좌 안에서 종합 운용해 주는 서비스",
+    "example": "수수료를 묶어서(wrap) 받는다는 뜻에서 나온 이름이에요."
+  },
+  {
+    "id": "pd-subscription-deposit",
+    "term": "청약증거금",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "공모주를 신청할 때 신청 금액의 일부를 미리 넣어 두는 돈",
+    "example": "보통 절반을 넣고, 배정받지 못한 돈은 며칠 뒤 돌려받아요."
+  },
+  {
+    "id": "pd-equal-allocation",
+    "term": "균등배정",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "최소 단위 이상 청약한 사람들에게 같은 수량씩 나눠 주는 공모주 배정",
+    "example": "소액으로 청약해도 몇 주는 받을 기회가 생겨요."
+  },
+  {
+    "id": "pd-proportional-allocation",
+    "term": "비례배정",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "넣은 증거금이 많을수록 더 많은 주식을 배정하는 공모주 방식",
+    "example": "경쟁률이 높으면 큰돈을 넣어도 받는 주식은 적어요."
+  },
+  {
+    "id": "pd-krx-gold",
+    "term": "KRX 금현물",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "증권계좌로 한국거래소 금시장에서 금을 g 단위로 사고파는 것",
+    "example": "실물 금을 나중에 찾아갈 수도 있어요(인출 비용은 따로 들어요)."
+  },
+  {
+    "id": "pd-special-deposit",
+    "term": "특판 예금",
+    "category": "계좌·상품",
+    "level": 2,
+    "short": "기간과 한도를 정해 평소보다 높은 금리로 한시 판매하는 예금",
+    "example": "조기 마감이 잦아서 소식을 듣고 빨리 움직여야 해요."
+  },
+  {
+    "id": "pd-covered-call-etf",
+    "term": "커버드콜 ETF",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "주식을 들고 콜옵션을 팔아 받은 프리미엄을 분배금으로 주는 상장펀드",
+    "example": "매달 분배금은 높지만 주가가 크게 오를 때 수익이 제한돼요."
+  },
+  {
+    "id": "pd-active-etf",
+    "term": "액티브 ETF",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "지수를 그대로 따르지 않고 운용역 판단을 섞어 초과수익을 노리는 상장펀드",
+    "example": "국내 규정상 비교지수와의 상관계수 기준을 지켜야 해요."
+  },
+  {
+    "id": "pd-synthetic-etf",
+    "term": "합성 ETF",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "자산을 직접 담지 않고 증권사와 스왑 계약으로 지수 수익을 받는 상장펀드",
+    "example": "직접 사기 어려운 해외 원자재나 지수를 추종할 때 쓰여요."
+  },
+  {
+    "id": "pd-dls",
+    "term": "DLS",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "금리·원자재·환율 등 주가 외 기초자산에 수익이 연결된 파생결합증권",
+    "example": "2019년 해외금리 연계 상품에서 큰 손실 사태가 있었어요."
+  },
+  {
+    "id": "pd-elb",
+    "term": "ELB",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "주가에 수익이 연결되지만 발행사가 원금 지급을 약속하는 증권",
+    "example": "원금 보장 대신 기대 수익이 낮은 편이에요."
+  },
+  {
+    "id": "pd-dlb",
+    "term": "DLB",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "금리·환율 등에 수익이 연결되며 원금 지급을 약속한 파생결합사채",
+    "example": "발행 증권사가 망하면 원금도 위험해질 수 있어요."
+  },
+  {
+    "id": "pd-knock-in",
+    "term": "녹인",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "구조화 상품에서 기초자산이 일정 수준 아래로 떨어지면 손실 조건이 생기는 장벽",
+    "example": "예: 가입 시점 대비 50% 아래로 한 번이라도 내려가면 손실 구간이 열려요."
+  },
+  {
+    "id": "pd-autocall",
+    "term": "조기상환",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "정해진 평가일에 조건을 채우면 만기 전에 원금과 수익을 돌려주는 것",
+    "example": "6개월마다 기초자산이 처음의 90% 이상이면 끝나는 식이에요."
+  },
+  {
+    "id": "pd-step-down-els",
+    "term": "스텝다운형 ELS",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "평가 시점이 지날수록 조기상환 조건 가격이 계단처럼 낮아지는 구조",
+    "example": "90-90-85-85-80-75처럼 조건이 점점 쉬워져요."
+  },
+  {
+    "id": "pd-premium-discount",
+    "term": "괴리율",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "ETF·ETN의 시장 가격이 실제 가치에서 얼마나 벗어났는지 나타낸 비율",
+    "example": "이 값이 크면 비싸게 사거나 싸게 팔 위험이 있어요."
+  },
+  {
+    "id": "pd-tracking-error",
+    "term": "추적오차",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "상장펀드 수익률이 따라가려는 지수 수익률과 벌어지는 정도",
+    "example": "보수, 배당 처리, 매매 비용 등 때문에 생겨요."
+  },
+  {
+    "id": "pd-liquidity-provider",
+    "term": "유동성공급자(LP)",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "ETF·ETN 호가를 계속 내서 거래가 원활하도록 돕는 증권사",
+    "example": "장 시작 직후 등 이 회사가 호가를 안 낼 때는 가격이 튈 수 있어요."
+  },
+  {
+    "id": "pd-isa-low-income",
+    "term": "서민형 ISA",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "소득 요건을 충족한 가입자에게 일반형보다 큰 비과세 혜택을 주는 유형",
+    "example": "요건과 한도는 세법에 따라 정해지고 바뀔 수 있어요."
+  },
+  {
+    "id": "pd-isa-to-pension",
+    "term": "ISA 만기 연금 전환",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "만기된 절세 계좌 자금을 연금계좌로 옮겨 추가 세액공제를 받는 것",
+    "example": "공제 한도는 세법에 따라 정해지니 전환 전에 꼭 확인해요."
+  },
+  {
+    "id": "pd-pension-withdrawal",
+    "term": "연금저축 중도인출",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "연금 수령 전에 연금저축 일부를 해지 없이 꺼내는 것",
+    "example": "공제받은 돈을 꺼내면 기타소득세가 붙을 수 있어요."
+  },
+  {
+    "id": "pd-default-option",
+    "term": "디폴트옵션",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "퇴직연금 가입자가 운용 지시를 안 하면 미리 고른 상품으로 자동 운용하는 제도",
+    "example": "정식 이름은 사전지정운용제도로 DC형·IRP에 적용돼요."
+  },
+  {
+    "id": "pd-pension-in-kind-transfer",
+    "term": "퇴직연금 실물이전",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "보유 상품을 팔지 않고 그대로 다른 금융회사로 옮기는 퇴직연금 이전 방식",
+    "example": "2024년 10월 도입돼 해지 손실 없이 회사를 바꿀 수 있어요. 일부 상품은 제외돼요."
+  },
+  {
+    "id": "pd-fund-of-funds",
+    "term": "재간접펀드",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "주식·채권 대신 다른 펀드에 나눠 투자하는 펀드",
+    "example": "여러 운용사 펀드에 분산되지만 보수가 이중으로 붙을 수 있어요."
+  },
+  {
+    "id": "pd-fx-hedged",
+    "term": "환헤지형(H)",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "환율 변동 영향을 줄이도록 설계된 해외 투자 펀드·ETF 유형",
+    "example": "이름 끝 (H)는 환율이 내려도 손실을 덜 보겠다는 뜻이에요."
+  },
+  {
+    "id": "pd-fx-unhedged",
+    "term": "환노출형(UH)",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "환율 변동을 그대로 받아 자산 수익에 더해지거나 빠지는 해외 투자 유형",
+    "example": "달러가 강해지면 추가 수익, 약해지면 손실이 생겨요."
+  },
+  {
+    "id": "pd-etf-distribution",
+    "term": "ETF 분배금",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "상장펀드가 담은 자산의 배당·이자를 모아 투자자에게 나눠 주는 돈",
+    "example": "분배금이 나가는 날에는 그만큼 ETF 가격이 내려가요."
+  },
+  {
+    "id": "pd-target-conversion-fund",
+    "term": "목표전환형 펀드",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "정한 수익률에 도달하면 채권형 등 안전 자산으로 갈아타는 펀드",
+    "example": "목표 7% 달성 시 수익을 지키도록 운용 방식을 바꿔요."
+  },
+  {
+    "id": "pd-integrated-margin",
+    "term": "통합증거금",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "원화와 외화를 하나로 묶어 환전 없이도 해외주식을 주문하게 하는 서비스",
+    "example": "실제 환전은 결제 시점에 자동으로 처리돼요."
+  },
+  {
+    "id": "pd-risk-profiling",
+    "term": "투자성향 진단",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "상품 가입 전 투자 경험·목적 등을 물어 위험 감수 수준을 정하는 절차",
+    "example": "결과보다 위험한 상품은 권유할 수 없는 적합성 원칙의 출발점이에요."
+  },
+  {
+    "id": "pd-cooling-off",
+    "term": "청약철회권",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "일부 투자 상품을 가입한 뒤 정해진 기간 안에 취소할 수 있는 권리",
+    "example": "금융소비자보호법에 따라 대상 상품과 기간이 정해져 있어요."
+  },
+  {
+    "id": "pd-complex-product",
+    "term": "고난도 금융투자상품",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "구조가 복잡하고 최대 손실이 큰 상품으로 판매 절차가 더 엄격한 상품군",
+    "example": "녹취와 숙려기간 같은 추가 보호 장치가 붙어요."
+  },
+  {
+    "id": "pd-cma-issued-note",
+    "term": "CMA 발행어음형",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "증권사가 발행한 어음에 투자해 이자를 주는 증권사 계좌 유형",
+    "example": "발행어음을 낼 수 있는 대형 증권사만 제공해요."
+  },
+  {
+    "id": "pd-real-estate-fund",
+    "term": "부동산 펀드",
+    "category": "계좌·상품",
+    "level": 3,
+    "short": "오피스·물류센터 등에 투자하거나 개발 대출을 해 주는 펀드",
+    "example": "만기 전 환매가 막힌 폐쇄형이 많아 돈이 묶일 수 있어요."
+  },
+  {
+    "id": "pd-inav",
+    "term": "iNAV",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "장중 실시간으로 계산해 공표하는 ETF의 추정 순자산가치",
+    "example": "시장 가격이 이 값과 멀면 괴리가 생겼다는 신호예요."
+  },
+  {
+    "id": "pd-lizard-els",
+    "term": "리자드형 ELS",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "초기 평가일에 별도의 낮은 조건을 둬서 조기상환 탈출 기회를 한 번 더 주는 구조",
+    "example": "도마뱀이 꼬리를 자르고 도망가듯 손실을 피한다는 데서 나온 이름이에요."
+  },
+  {
+    "id": "pd-no-knock-in-els",
+    "term": "노녹인 ELS",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "중간 하락 장벽 없이 만기 시점 가격만으로 손실을 따지는 구조화 상품",
+    "example": "대신 수익률이 낮은 편이고, 만기 조건이 깨지면 손실은 나요."
+  },
+  {
+    "id": "pd-monthly-coupon-els",
+    "term": "월지급식 ELS",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "조건을 채우는 동안 매달 정해진 쿠폰을 나눠 지급하는 구조화 상품",
+    "example": "현금 흐름은 좋지만 원금 손실 위험은 그대로예요."
+  },
+  {
+    "id": "pd-back-to-back-hedge",
+    "term": "백투백 헤지",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "증권사가 판 구조화 상품의 위험을 다른 금융사와 같은 조건의 거래로 넘기는 방식",
+    "example": "증권사가 직접 위험을 관리하는 자체 헤지와 대비돼요."
+  },
+  {
+    "id": "pd-swap-counterparty-risk",
+    "term": "스왑 거래상대방 위험",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "합성 상장펀드에 지수 수익을 주기로 한 금융사가 약속을 못 지킬 위험",
+    "example": "이를 줄이려고 담보를 받거나 상대방을 여럿 두기도 해요."
+  },
+  {
+    "id": "pd-authorized-participant",
+    "term": "지정참가회사(AP)",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "운용사와 직접 ETF를 새로 만들거나 없애는 설정·환매를 하는 증권사",
+    "example": "이 회사가 차익거래를 하며 가격을 실제 가치 근처로 맞춰요."
+  },
+  {
+    "id": "pd-creation-unit",
+    "term": "설정단위(CU)",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "ETF를 새로 만들거나 되돌릴 때 쓰는 최소 묶음 수량",
+    "example": "개인은 거래소에서 사고팔고, 이 묶음 단위 거래는 AP가 해요."
+  },
+  {
+    "id": "pd-roll-over-cost",
+    "term": "롤오버 비용",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "선물을 담은 상품이 만기 월물을 다음 월물로 갈아탈 때 생기는 손실·이득",
+    "example": "원유 ETF가 유가는 그대로인데 수익이 깎이는 주범이에요."
+  },
+  {
+    "id": "pd-volatility-decay",
+    "term": "변동성 끌림",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "배수형 상품이 등락을 반복하면 지수가 제자리여도 가치가 깎이는 현상",
+    "example": "지수가 +10%, -10%를 반복하면 2배 상품은 더 크게 줄어요."
+  },
+  {
+    "id": "pd-ima",
+    "term": "종합투자계좌(IMA)",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "대형 증권사가 원금 지급 의무를 지고 고객 돈을 기업금융 등에 굴리는 계좌",
+    "example": "실적에 따라 수익이 달라지며 일정 요건의 증권사만 운영할 수 있어요."
+  },
+  {
+    "id": "pd-glide-path",
+    "term": "글라이드패스",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "은퇴 시점까지 주식·채권 비중을 어떻게 바꿀지 정한 경로",
+    "example": "TDF마다 이 경로가 달라서 같은 연도라도 위험이 달라요."
+  },
+  {
+    "id": "pd-amortized-cost",
+    "term": "장부가 평가",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "시장 가격 대신 매입가와 이자 누적으로 자산을 평가하는 방식",
+    "example": "단기 펀드의 기준가가 매일 매끄럽게 오르는 이유예요."
+  },
+  {
+    "id": "pd-leveraged-etf-education",
+    "term": "레버리지 ETF 사전교육",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "배수형 상장상품을 처음 사기 전 개인이 이수해야 하는 온라인 교육",
+    "example": "기본예탁금 요건과 함께 투자자 보호를 위해 도입됐어요."
+  },
+  {
+    "id": "pd-redemption-suspension",
+    "term": "환매연기",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "담은 자산을 팔기 어려워 펀드가 돈을 돌려주는 시기를 미루는 것",
+    "example": "2019~2020년 일부 사모펀드 사태에서 크게 문제가 됐어요."
+  },
+  {
+    "id": "pd-closed-end-fund",
+    "term": "폐쇄형 펀드",
+    "category": "계좌·상품",
+    "level": 4,
+    "short": "만기 전에는 환매가 안 되는 대신 상장해 거래되기도 하는 펀드",
+    "example": "부동산·인프라처럼 바로 팔기 어려운 자산에 주로 써요."
+  }
+]

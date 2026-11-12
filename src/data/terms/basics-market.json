@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "bm-buy",
+    "term": "매수",
+    "category": "기초",
+    "level": 1,
+    "short": "돈을 내고 주식을 사들이는 일",
+    "example": "삼천 원짜리 주식 10주를 사면 3만 원어치를 산 거예요."
+  },
+  {
+    "id": "bm-sell",
+    "term": "매도",
+    "category": "기초",
+    "level": 1,
+    "short": "가지고 있던 주식을 팔아 돈으로 바꾸는 일",
+    "example": "오른 주식을 팔아 이익을 확정할 때 이 주문을 내요."
+  },
+  {
+    "id": "bm-orderable-amount",
+    "term": "주문가능금액",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "지금 계좌 상태로 주식을 살 수 있는 최대 금액",
+    "example": "이미 걸어 둔 매수 주문이 있으면 그만큼 줄어들어 보여요."
+  },
+  {
+    "id": "bm-securities-firm",
+    "term": "증권사",
+    "category": "기초",
+    "level": 1,
+    "short": "투자자의 주문을 받아 거래소에 전달해 주는 금융회사",
+    "example": "계좌를 만들고 앱으로 주문하는 곳이 바로 이 회사예요."
+  },
+  {
+    "id": "bm-mts",
+    "term": "MTS",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "스마트폰으로 주식을 사고파는 증권사 모바일 앱",
+    "example": "요즘은 대부분 휴대폰 앱으로 출퇴근길에 주문을 내요."
+  },
+  {
+    "id": "bm-hts",
+    "term": "HTS",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "컴퓨터에 설치해 쓰는 증권사 주식 거래 프로그램",
+    "example": "큰 화면으로 차트와 호가를 여러 개 띄워 보고 싶을 때 써요."
+  },
+  {
+    "id": "bm-ticker-item",
+    "term": "종목",
+    "category": "기초",
+    "level": 1,
+    "short": "거래소에서 사고팔 수 있는 개별 주식 하나하나",
+    "example": "'어떤 걸 샀어?'라고 물을 때 가리키는 회사 주식 하나를 말해요."
+  },
+  {
+    "id": "bm-ticker-code",
+    "term": "종목코드",
+    "category": "기초",
+    "level": 1,
+    "short": "국내 상장 주식마다 붙는 6자리 식별 번호",
+    "example": "이름이 비슷한 회사가 있어도 이 번호로 정확히 구분해요."
+  },
+  {
+    "id": "bm-stock-price",
+    "term": "주가",
+    "category": "기초",
+    "level": 1,
+    "short": "주식 1주당 시장에서 매겨지는 가격",
+    "example": "사려는 사람이 많아지면 오르고 팔려는 사람이 많아지면 내려요."
+  },
+  {
+    "id": "bm-current-price",
+    "term": "현재가",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "지금 이 순간 가장 마지막으로 거래가 이뤄진 가격",
+    "example": "앱 화면 맨 위에 크게 보이는 숫자가 이 가격이에요."
+  },
+  {
+    "id": "bm-return-rate",
+    "term": "수익률",
+    "category": "기초",
+    "level": 1,
+    "short": "넣은 돈 대비 얼마나 벌거나 잃었는지 나타낸 비율",
+    "example": "100만 원이 110만 원이 되면 +10%예요."
+  },
+  {
+    "id": "bm-unrealized-pnl",
+    "term": "평가손익",
+    "category": "기초",
+    "level": 1,
+    "short": "아직 팔지 않은 주식을 지금 가격으로 따진 이익이나 손해",
+    "example": "팔기 전까지는 주가에 따라 계속 바뀌는 숫자예요."
+  },
+  {
+    "id": "bm-realized-pnl",
+    "term": "실현손익",
+    "category": "기초",
+    "level": 1,
+    "short": "실제로 팔아서 확정된 이익이나 손해",
+    "example": "주식을 팔고 나면 그때 비로소 이 금액이 정해져요."
+  },
+  {
+    "id": "bm-average-price",
+    "term": "평균단가",
+    "category": "기초",
+    "level": 1,
+    "short": "여러 번 나눠 산 주식의 1주당 평균 매입 가격",
+    "example": "1만 원에 1주, 2만 원에 1주를 샀다면 1만 5천 원이에요."
+  },
+  {
+    "id": "bm-holdings",
+    "term": "잔고",
+    "category": "기초",
+    "level": 1,
+    "short": "계좌에 담겨 있는 보유 주식과 수량 목록",
+    "example": "앱의 '보유 종목' 화면에서 내가 가진 주식을 확인할 수 있어요."
+  },
+  {
+    "id": "bm-execution",
+    "term": "체결",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "내 주문이 상대 주문과 맞아 거래가 실제로 성사되는 것",
+    "example": "앱에 '매수 완료' 알림이 오면 주식이 내 것이 된 거예요."
+  },
+  {
+    "id": "bm-unfilled",
+    "term": "미체결",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "주문은 냈지만 아직 거래가 성사되지 않고 대기 중인 상태",
+    "example": "너무 싸게 사려고 주문하면 오래 이 상태로 남아 있을 수 있어요."
+  },
+  {
+    "id": "bm-change-rate",
+    "term": "등락률",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "전날 마감 가격과 비교해 오르거나 내린 비율",
+    "example": "앱에서 빨간색 +3%, 파란색 -2%처럼 표시돼요."
+  },
+  {
+    "id": "bm-unchanged",
+    "term": "보합",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "전날과 가격이 거의 같아 변동이 없는 상태",
+    "example": "어제 5천 원, 오늘도 5천 원이면 이 상태라고 해요."
+  },
+  {
+    "id": "bm-surge",
+    "term": "급등",
+    "category": "기초",
+    "level": 1,
+    "short": "짧은 시간에 가격이 크게 치솟는 것",
+    "example": "좋은 소식이 갑자기 나오면 몇 분 만에 크게 오르기도 해요."
+  },
+  {
+    "id": "bm-plunge",
+    "term": "급락",
+    "category": "기초",
+    "level": 1,
+    "short": "짧은 시간에 가격이 크게 떨어지는 것",
+    "example": "예상 못 한 악재가 나오면 한순간에 크게 빠질 수 있어요."
+  },
+  {
+    "id": "bm-rebound",
+    "term": "반등",
+    "category": "기초",
+    "level": 1,
+    "short": "떨어지던 가격이 방향을 바꿔 다시 오르는 것",
+    "example": "며칠 내리던 주가가 오늘 올랐다면 이렇게 표현해요."
+  },
+  {
+    "id": "bm-stock-market",
+    "term": "증시",
+    "category": "기초",
+    "level": 1,
+    "short": "주식이 거래되는 시장을 줄여 부르는 말",
+    "example": "'오늘 ○○가 크게 올랐다'는 뉴스에서 자주 들려요."
+  },
+  {
+    "id": "bm-listing",
+    "term": "상장",
+    "category": "기초",
+    "level": 1,
+    "short": "회사 주식이 거래소에서 거래될 수 있게 등록되는 것",
+    "example": "이 절차를 거쳐야 누구나 앱에서 그 회사 주식을 살 수 있어요."
+  },
+  {
+    "id": "bm-listed-company",
+    "term": "상장사",
+    "category": "기초",
+    "level": 1,
+    "short": "주식이 거래소에 올라 있어 누구나 사고팔 수 있는 회사",
+    "example": "정기적으로 실적과 중요 정보를 공개할 의무가 있어요."
+  },
+  {
+    "id": "bm-regular-session",
+    "term": "정규장",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "평일 오전 9시부터 오후 3시 30분까지 열리는 주된 거래 시간",
+    "example": "대부분의 거래가 이 시간에 이뤄지고 가격제한폭도 이 기준이에요."
+  },
+  {
+    "id": "bm-limit-order",
+    "term": "지정가주문",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "원하는 가격을 정해 그 가격이나 더 유리한 가격에만 거래하는 주문",
+    "example": "1만 원에 사겠다고 걸어 두면 1만 원 이하에서만 사져요."
+  },
+  {
+    "id": "bm-market-order",
+    "term": "시장가주문",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "가격을 정하지 않고 지금 가능한 가격에 바로 사고파는 주문",
+    "example": "빨리 거래되지만 예상보다 비싸게 사거나 싸게 팔 수 있어요."
+  },
+  {
+    "id": "bm-order-book",
+    "term": "호가창",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "사려는 가격과 팔려는 가격, 수량이 층층이 보이는 화면",
+    "example": "위쪽 파란 칸은 팔려는 주문, 아래쪽 빨간 칸은 사려는 주문이에요."
+  },
+  {
+    "id": "bm-trading-fee",
+    "term": "매매수수료",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "주식을 사고팔 때마다 증권사에 내는 거래 비용",
+    "example": "자주 사고팔수록 이 비용이 쌓여 수익을 갉아먹어요."
+  },
+  {
+    "id": "bm-retail-investor",
+    "term": "개인투자자",
+    "category": "기초",
+    "level": 1,
+    "short": "회사가 아닌 개인 자격으로 자기 돈을 투자하는 사람",
+    "example": "흔히 '개미'라는 별명으로 불려요."
+  },
+  {
+    "id": "bm-jurini",
+    "term": "주린이",
+    "category": "기초",
+    "level": 1,
+    "short": "주식 투자를 막 시작한 초보를 친근하게 부르는 말",
+    "example": "'주식'과 '어린이'를 합친 신조어예요."
+  },
+  {
+    "id": "bm-watchlist",
+    "term": "관심종목",
+    "category": "기초",
+    "level": 1,
+    "short": "시세를 쉽게 보려고 앱에 따로 모아 둔 주식 목록",
+    "example": "사지 않았어도 지켜보고 싶은 회사를 등록해 두면 편해요."
+  },
+  {
+    "id": "bm-stake",
+    "term": "지분",
+    "category": "기초",
+    "level": 1,
+    "short": "회사 전체 주식 가운데 한 사람이 가진 몫",
+    "example": "주식 100주 중 10주를 가졌다면 회사의 10%를 가진 셈이에요."
+  },
+  {
+    "id": "bm-trade",
+    "term": "매매",
+    "category": "기초",
+    "level": 1,
+    "short": "주식을 사고파는 일을 함께 이르는 말",
+    "example": "사는 것과 파는 것을 합쳐 이렇게 불러요."
+  },
+  {
+    "id": "bm-intraday",
+    "term": "장중",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "정규 거래 시간이 진행되고 있는 동안",
+    "example": "'장중 한때 5% 올랐다'처럼 하루 중간의 움직임을 말할 때 써요."
+  },
+  {
+    "id": "bm-securities",
+    "term": "증권",
+    "category": "기초",
+    "level": 1,
+    "short": "주식·채권처럼 재산상의 권리를 나타내는 금융 증서",
+    "example": "요즘은 종이 대신 전자 기록으로 관리돼요."
+  },
+  {
+    "id": "bm-order-cancel",
+    "term": "주문 취소",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "아직 거래되지 않은 주문을 거둬들이는 것",
+    "example": "이미 체결된 부분은 되돌릴 수 없고 남은 수량만 거둬요."
+  },
+  {
+    "id": "bm-market-close",
+    "term": "장 마감",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "그날 정규 거래 시간이 끝나는 것",
+    "example": "국내 주식은 오후 3시 30분에 하루 정규 거래가 끝나요."
+  },
+  {
+    "id": "bm-quote",
+    "term": "시세",
+    "category": "시장·거래",
+    "level": 1,
+    "short": "시장에서 거래되는 그때그때의 가격 흐름",
+    "example": "앱에서 실시간으로 바뀌는 가격과 등락을 함께 이르는 말이에요."
+  },
+  {
+    "id": "bm-net-buy",
+    "term": "순매수",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "산 금액에서 판 금액을 빼고도 남아 사들인 쪽이 더 많은 상태",
+    "example": "'외국인이 오늘 1천억 원어치 더 샀다'는 뉴스가 이 뜻이에요."
+  },
+  {
+    "id": "bm-large-cap",
+    "term": "대형주",
+    "category": "기초",
+    "level": 2,
+    "short": "시가총액이 커서 시장에서 덩치가 큰 회사의 주식",
+    "example": "보통 하루 가격 변동이 상대적으로 작은 편이에요."
+  },
+  {
+    "id": "bm-small-cap",
+    "term": "소형주",
+    "category": "기초",
+    "level": 2,
+    "short": "시가총액이 작은 회사의 주식",
+    "example": "가격이 크게 출렁이기 쉬워 위험도 커요."
+  },
+  {
+    "id": "bm-bull-market",
+    "term": "강세장",
+    "category": "기초",
+    "level": 2,
+    "short": "주가가 전반적으로 오랫동안 오르는 시장",
+    "example": "황소가 뿔을 치켜드는 모습에 빗대 '불마켓'이라고도 해요."
+  },
+  {
+    "id": "bm-bear-market",
+    "term": "약세장",
+    "category": "기초",
+    "level": 2,
+    "short": "주가가 전반적으로 오랫동안 내리는 시장",
+    "example": "곰이 앞발로 내리치는 모습에 빗대 '베어마켓'이라고도 해요."
+  },
+  {
+    "id": "bm-shares-outstanding",
+    "term": "상장주식수",
+    "category": "기초",
+    "level": 2,
+    "short": "회사가 발행해 거래소에 등록한 주식의 총 개수",
+    "example": "주가에 이 숫자를 곱하면 시가총액이 나와요."
+  },
+  {
+    "id": "bm-common-stock",
+    "term": "보통주",
+    "category": "기초",
+    "level": 2,
+    "short": "주주총회 의결권이 있는 가장 일반적인 형태의 주식",
+    "example": "종목 이름 뒤에 '우'가 붙지 않은 주식이 대개 이 주식이에요."
+  },
+  {
+    "id": "bm-unlisted-stock",
+    "term": "비상장주식",
+    "category": "기초",
+    "level": 2,
+    "short": "거래소에 올라 있지 않은 회사의 주식",
+    "example": "일반 주식 앱에서는 사고팔 수 없고 따로 거래해야 해요."
+  },
+  {
+    "id": "bm-kospi-market",
+    "term": "유가증권시장",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "주로 규모 큰 기업이 상장하는 한국거래소의 대표 주식시장",
+    "example": "이 시장 종목으로 계산한 지수가 코스피예요."
+  },
+  {
+    "id": "bm-kospi200",
+    "term": "코스피200",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "유가증권시장 대표 종목 200개로 만든 지수",
+    "example": "국내 선물·옵션과 많은 ETF가 이 지수를 기준으로 삼아요."
+  },
+  {
+    "id": "bm-price-limit",
+    "term": "가격제한폭",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "하루 동안 주가가 오르내릴 수 있는 최대 범위",
+    "example": "국내 주식은 기준가 대비 위아래 30%까지 움직일 수 있어요."
+  },
+  {
+    "id": "bm-tick-size",
+    "term": "호가단위",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "주가 수준에 따라 정해진 주문 가격의 최소 간격",
+    "example": "가격대마다 1원, 5원, 10원처럼 올릴 수 있는 칸이 달라요."
+  },
+  {
+    "id": "bm-remaining-quantity",
+    "term": "잔량",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "호가창 각 가격 칸에 쌓여 아직 거래되지 않은 주문 수량",
+    "example": "어떤 가격에 파는 주문이 수만 주 쌓여 있으면 그 위로 오르기 어려워요."
+  },
+  {
+    "id": "bm-call-auction-time",
+    "term": "동시호가",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "장 시작 전과 마감 직전에 주문을 모아 받는 시간대를 이르는 말",
+    "example": "보통 08:30~09:00, 15:20~15:30에 진행돼요."
+  },
+  {
+    "id": "bm-order-modify",
+    "term": "정정주문",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "이미 낸 주문의 가격이나 수량을 바꾸는 주문",
+    "example": "안 사질 것 같으면 취소 대신 가격만 바꿔 다시 걸 수 있어요."
+  },
+  {
+    "id": "bm-reserved-order",
+    "term": "예약주문",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "장이 열리기 전에 미리 넣어 두면 정해진 때 자동으로 나가는 주문",
+    "example": "밤에 미리 걸어 두면 다음 날 장 시작 때 주문이 들어가요."
+  },
+  {
+    "id": "bm-t-plus-2",
+    "term": "T+2 결제",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "거래일로부터 2영업일 뒤에 돈과 주식이 실제로 오가는 방식",
+    "example": "월요일에 팔면 휴일이 없을 때 수요일에 판 돈을 찾을 수 있어요."
+  },
+  {
+    "id": "bm-d2-deposit",
+    "term": "D+2 예수금",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "이틀 뒤 결제가 끝나면 계좌에 남을 것으로 예상되는 현금",
+    "example": "오늘 주식을 팔았다면 이 금액에 판 돈이 미리 반영돼 보여요."
+  },
+  {
+    "id": "bm-market-holiday",
+    "term": "휴장일",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "거래소가 문을 닫아 주식 거래가 없는 날",
+    "example": "주말과 공휴일, 연말 마지막 날 등이 여기에 해당해요."
+  },
+  {
+    "id": "bm-margin-loan",
+    "term": "신용융자",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "증권사에서 돈을 빌려 주식을 사는 거래",
+    "example": "흔히 '빚투'라고 부르고 이자를 내야 하며 손실도 커질 수 있어요."
+  },
+  {
+    "id": "bm-investor-flow",
+    "term": "투자자별 매매동향",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "개인·외국인·기관이 각각 얼마나 사고팔았는지 보여주는 통계",
+    "example": "앱의 '투자자' 탭에서 누가 사고 누가 팔았는지 볼 수 있어요."
+  },
+  {
+    "id": "bm-buying-pressure",
+    "term": "매수세",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "주식을 사려는 수요가 몰리는 흐름",
+    "example": "사려는 사람이 계속 몰리면 가격이 위로 밀려 올라가요."
+  },
+  {
+    "id": "bm-correction",
+    "term": "조정",
+    "category": "기초",
+    "level": 2,
+    "short": "오르던 가격이 잠시 내려가며 숨을 고르는 구간",
+    "example": "크게 오른 뒤 며칠 쉬어 가며 일부 반납하는 모습을 말해요."
+  },
+  {
+    "id": "bm-new-high",
+    "term": "신고가",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "일정 기간 중 가장 높은 가격을 새로 기록하는 것",
+    "example": "최근 1년 중 가장 높은 가격을 넘어서면 '52주 최고 기록'이라고 불러요."
+  },
+  {
+    "id": "bm-industry",
+    "term": "업종",
+    "category": "기초",
+    "level": 2,
+    "short": "비슷한 사업을 하는 기업들을 묶은 분류",
+    "example": "반도체, 은행, 자동차처럼 나눠 같은 무리끼리 비교해요."
+  },
+  {
+    "id": "bm-leader-stock",
+    "term": "대장주",
+    "category": "기초",
+    "level": 2,
+    "short": "같은 업종이나 테마 안에서 가장 대표적이고 앞서가는 종목",
+    "example": "그 무리의 흐름을 볼 때 가장 먼저 확인하는 종목이에요."
+  },
+  {
+    "id": "bm-pension-fund",
+    "term": "연기금",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "국민연금처럼 연금 자산을 굴리는 대형 기관투자자",
+    "example": "규모가 커서 증시가 흔들릴 때 큰손 역할을 하기도 해요."
+  },
+  {
+    "id": "bm-subscription",
+    "term": "청약",
+    "category": "기초",
+    "level": 2,
+    "short": "새로 상장하는 주식을 공모가에 사겠다고 신청하는 절차",
+    "example": "신청한 사람이 많으면 경쟁률에 따라 적게 배정받아요."
+  },
+  {
+    "id": "bm-net-sell",
+    "term": "순매도",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "판 금액이 산 금액보다 많아 팔아치운 쪽이 더 많은 상태",
+    "example": "'기관이 오늘 500억 원어치 더 팔았다'는 뉴스가 이 뜻이에요."
+  },
+  {
+    "id": "bm-selling-pressure",
+    "term": "매도세",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "주식을 팔려는 물량이 몰리는 흐름",
+    "example": "팔려는 사람이 계속 늘면 가격이 아래로 밀려 내려가요."
+  },
+  {
+    "id": "bm-wait-and-see",
+    "term": "관망세",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "투자자들이 매매를 미루고 상황을 지켜보는 분위기",
+    "example": "큰 발표를 앞두면 거래가 줄며 이런 분위기가 나타나요."
+  },
+  {
+    "id": "bm-market-summary",
+    "term": "시황",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "그날 시장 분위기와 가격 움직임을 정리한 요약",
+    "example": "'오늘의 증시 ○○' 기사에서 왜 올랐고 내렸는지 설명해 줘요."
+  },
+  {
+    "id": "bm-speculation",
+    "term": "투기",
+    "category": "기초",
+    "level": 2,
+    "short": "가치보다 짧은 가격 차이만 노리고 위험하게 돈을 거는 것",
+    "example": "회사를 잘 모른 채 소문만 듣고 큰돈을 넣는 건 이에 가까워요."
+  },
+  {
+    "id": "bm-business-day",
+    "term": "영업일",
+    "category": "기초",
+    "level": 2,
+    "short": "주말과 공휴일을 뺀 금융기관이 일하는 날",
+    "example": "결제일이나 출금일은 이 날짜를 기준으로 세요."
+  },
+  {
+    "id": "bm-new-low",
+    "term": "신저가",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "일정 기간 중 가장 낮은 가격을 새로 기록하는 것",
+    "example": "최근 1년 중 가장 싼 가격 아래로 내려가면 이렇게 불러요."
+  },
+  {
+    "id": "bm-supply",
+    "term": "매물",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "팔려고 시장에 나와 있거나 나올 수 있는 주식 물량",
+    "example": "특정 가격에서 본전을 찾으려는 사람이 많으면 그 가격대에 팔자가 쌓여요."
+  },
+  {
+    "id": "bm-kosdaq150",
+    "term": "코스닥150",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "코스닥시장 대표 종목 150개로 만든 지수",
+    "example": "코스닥 관련 선물과 ETF가 기준으로 많이 쓰는 지수예요."
+  },
+  {
+    "id": "bm-offering-price",
+    "term": "공모가",
+    "category": "기초",
+    "level": 2,
+    "short": "새로 상장하는 주식을 투자자에게 처음 나눠 팔 때 정한 가격",
+    "example": "상장 첫날 가격 범위는 이 가격을 기준으로 정해져요."
+  },
+  {
+    "id": "bm-stock-transfer",
+    "term": "주식 이체",
+    "category": "시장·거래",
+    "level": 2,
+    "short": "보유 주식을 팔지 않고 다른 증권사 계좌로 그대로 옮기는 것",
+    "example": "증권사를 바꿀 때 팔았다 다시 사지 않아도 돼요."
+  },
+  {
+    "id": "bm-call-auction",
+    "term": "단일가매매",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "일정 시간 주문을 모았다가 하나의 가격으로 한꺼번에 체결하는 방식",
+    "example": "장 시작과 마감, VI 발동 때 이 방식으로 가격이 정해져요."
+  },
+  {
+    "id": "bm-continuous-auction",
+    "term": "접속매매",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "주문이 들어오는 대로 조건이 맞으면 바로바로 체결하는 방식",
+    "example": "정규장 9시 이후부터 마감 동시호가 전까지 쓰이는 방식이에요."
+  },
+  {
+    "id": "bm-after-hours-close",
+    "term": "시간외 종가매매",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "정규장 앞뒤 짧은 시간 동안 정해진 종가 하나로만 거래하는 매매",
+    "example": "장 마감 후 그날 마지막 가격 그대로 사고팔 수 있는 시간이 있어요."
+  },
+  {
+    "id": "bm-after-hours-single",
+    "term": "시간외 단일가매매",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "정규장 후 일정 간격마다 주문을 모아 정해진 범위 안에서 체결하는 매매",
+    "example": "장 마감 뒤 나온 소식이 다음 날 전에 가격에 먼저 반영되기도 해요."
+  },
+  {
+    "id": "bm-ats",
+    "term": "대체거래소(ATS)",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "한국거래소 말고도 주식 매매를 중개하는 또 다른 거래 시장",
+    "example": "국내에선 넥스트레이드가 2025년에 출범해 운영 중이에요."
+  },
+  {
+    "id": "bm-k-otc",
+    "term": "K-OTC",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "비상장 주식을 거래할 수 있게 금융투자협회가 운영하는 장외시장",
+    "example": "거래소에 오르지 않은 회사 주식도 이곳에서 사고팔 수 있어요."
+  },
+  {
+    "id": "bm-conditional-limit",
+    "term": "조건부지정가주문",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "장중엔 지정가로 기다리다 안 되면 마감 단일가 때 시장가로 바뀌는 주문",
+    "example": "오늘 안에는 꼭 거래하고 싶지만 장중엔 원하는 가격을 노릴 때 써요."
+  },
+  {
+    "id": "bm-best-limit",
+    "term": "최유리지정가주문",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "주문 순간 상대편의 가장 좋은 호가 가격으로 자동 지정되는 주문",
+    "example": "살 때는 지금 가장 싸게 팔려는 가격으로 주문 가격이 정해져요."
+  },
+  {
+    "id": "bm-stop-order",
+    "term": "스톱주문",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "정해 둔 가격에 도달하면 자동으로 주문이 나가게 하는 기능",
+    "example": "앱의 '자동감시주문'처럼 일정 가격 아래로 떨어지면 팔도록 걸어 둬요."
+  },
+  {
+    "id": "bm-spread",
+    "term": "호가 스프레드",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "가장 낮은 팔자 가격과 가장 높은 사자 가격 사이의 차이",
+    "example": "거래가 한산한 종목일수록 이 간격이 넓은 편이에요."
+  },
+  {
+    "id": "bm-best-quote",
+    "term": "최우선호가",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "가장 높은 사자 가격과 가장 낮은 팔자 가격",
+    "example": "호가창에서 현재가 바로 위아래 첫 칸에 있는 두 가격이에요."
+  },
+  {
+    "id": "bm-slippage",
+    "term": "슬리피지",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "주문할 때 예상한 가격과 실제 체결된 가격 사이의 차이",
+    "example": "거래가 적은 종목을 시장가로 많이 사면 이 차이가 커져요."
+  },
+  {
+    "id": "bm-market-maker",
+    "term": "시장조성자",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "사자·팔자 호가를 꾸준히 내 거래가 원활하게 이뤄지도록 돕는 회원사",
+    "example": "거래가 뜸한 종목에도 호가가 비지 않도록 거래소와 계약해 활동해요."
+  },
+  {
+    "id": "bm-maintenance-ratio",
+    "term": "담보유지비율",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "빌린 돈 대비 계좌의 담보 가치가 유지돼야 하는 최소 비율",
+    "example": "주가가 떨어져 이 비율 아래로 내려가면 추가 납입을 요구받아요."
+  },
+  {
+    "id": "bm-index-rebalancing",
+    "term": "지수 정기변경",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "지수 구성 종목을 정해진 시기마다 넣고 빼는 일",
+    "example": "새로 들어가는 종목은 지수를 따르는 자금의 매수가 예상되곤 해요."
+  },
+  {
+    "id": "bm-program-trading",
+    "term": "프로그램매매",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "컴퓨터로 여러 종목을 묶어 한꺼번에 주문하는 대량 매매",
+    "example": "지수 관련 대량 매매가 나오면 시장 전체가 함께 움직이기도 해요."
+  },
+  {
+    "id": "bm-passive-flow",
+    "term": "패시브 자금",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "지수를 그대로 따라가도록 기계적으로 움직이는 투자 자금",
+    "example": "지수에 새로 편입된 종목은 이 돈이 정해진 비율만큼 사들여요."
+  },
+  {
+    "id": "bm-spoofing",
+    "term": "허수주문",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "체결할 생각 없이 가격을 흔들려고 냈다가 곧 취소하는 주문",
+    "example": "큰 주문이 쌓인 것처럼 보이게 해 남들을 속이는 데 쓰여요."
+  },
+  {
+    "id": "bm-price-priority",
+    "term": "가격우선 원칙",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "더 비싸게 사려는 주문과 더 싸게 팔려는 주문이 먼저 체결되는 원칙",
+    "example": "1만 100원 매수 주문이 1만 원 매수 주문보다 먼저 체결돼요."
+  },
+  {
+    "id": "bm-time-priority",
+    "term": "시간우선 원칙",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "같은 가격 주문이라면 먼저 낸 주문부터 체결되는 원칙",
+    "example": "같은 가격이면 9시 1분 주문이 9시 5분 주문보다 앞서요."
+  },
+  {
+    "id": "bm-vi",
+    "term": "변동성완화장치(VI)",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "개별 종목 가격이 급변하면 잠시 단일가매매로 바꿔 진정시키는 장치",
+    "example": "발동되면 약 2분간 주문을 모아 한 가격으로 체결해요."
+  },
+  {
+    "id": "bm-ttadda-ble",
+    "term": "따따블",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "새로 상장한 주식이 첫날 공모가의 4배까지 오르는 것",
+    "example": "신규 상장 첫날 가격 범위가 공모가의 60~400%로 바뀌며 생긴 말이에요."
+  },
+  {
+    "id": "bm-strong-then-weak",
+    "term": "전강후약",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "장 초반엔 강하게 오르다 후반으로 갈수록 힘이 빠지는 흐름",
+    "example": "아침엔 좋았는데 마감 때 상승분을 대부분 반납한 날이에요."
+  },
+  {
+    "id": "bm-execution-strength",
+    "term": "체결강도",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "매도 체결량 대비 매수 체결량을 %로 나타낸 지표",
+    "example": "100%를 넘으면 사려는 쪽이 더 적극적으로 체결했다는 뜻이에요."
+  },
+  {
+    "id": "bm-konex",
+    "term": "코넥스",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "초기 중소·벤처기업을 위해 따로 만든 국내 주식시장",
+    "example": "코스닥으로 가기 전 단계의 성장 사다리 역할을 해요."
+  },
+  {
+    "id": "bm-agency-trading",
+    "term": "위탁매매",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "증권사가 고객의 돈과 이름으로 주문을 대신 처리해 주는 매매",
+    "example": "우리가 앱으로 내는 주문이 모두 이 방식이에요."
+  },
+  {
+    "id": "bm-margin-balance",
+    "term": "신용잔고",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "빚을 내 산 주식 가운데 아직 갚지 않은 금액의 합계",
+    "example": "이 금액이 크게 늘면 시장이 빚에 기대고 있다는 신호로 읽혀요."
+  },
+  {
+    "id": "bm-margin-rate",
+    "term": "증거금률",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "종목별로 주문 금액 대비 미리 맡겨야 하는 돈의 비율",
+    "example": "위험한 종목일수록 이 비율이 높게 정해져 현금이 더 필요해요."
+  },
+  {
+    "id": "bm-sector-index",
+    "term": "업종지수",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "같은 산업에 속한 종목들만 모아 계산한 지수",
+    "example": "반도체 종목만 모은 지수를 보면 그 산업 분위기를 알 수 있어요."
+  },
+  {
+    "id": "bm-krx300",
+    "term": "KRX300",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "유가증권시장과 코스닥 우량 종목을 함께 담은 통합 지수",
+    "example": "두 시장을 아우르는 대표 지수를 만들려고 도입됐어요."
+  },
+  {
+    "id": "bm-weak-then-strong",
+    "term": "전약후강",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "장 초반엔 약하다가 후반으로 갈수록 힘이 붙는 흐름",
+    "example": "아침엔 내렸지만 마감 무렵 올라 상승으로 끝난 날이에요."
+  },
+  {
+    "id": "bm-transfer-listing",
+    "term": "이전상장",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "한 시장에서 다른 시장으로 옮겨 다시 등록하는 것",
+    "example": "코스닥 기업이 유가증권시장으로 옮겨 가는 경우가 대표적이에요."
+  },
+  {
+    "id": "bm-electronic-securities",
+    "term": "전자증권",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "종이 증서 없이 전자 기록으로만 발행·관리되는 증권",
+    "example": "국내 상장 주식은 실물 주권 대신 이 방식으로 관리돼요."
+  },
+  {
+    "id": "bm-shareholder-registry",
+    "term": "주주명부",
+    "category": "기초",
+    "level": 3,
+    "short": "회사가 주주가 누구이고 몇 주를 가졌는지 기록한 명단",
+    "example": "배당이나 주주총회 참석 대상은 이 기록을 기준으로 정해요."
+  },
+  {
+    "id": "bm-otc-market",
+    "term": "장외시장",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "거래소를 거치지 않고 당사자끼리 직접 사고파는 시장",
+    "example": "거래소 밖이라 가격 정보가 적고 거래 상대를 찾기 어려울 수 있어요."
+  },
+  {
+    "id": "bm-broker-window",
+    "term": "거래원",
+    "category": "시장·거래",
+    "level": 3,
+    "short": "어느 증권사 창구로 매매 주문이 몰렸는지 보여주는 정보",
+    "example": "앱에서 외국계 증권사 창구로 매수가 몰리는지 확인할 때 봐요."
+  },
+  {
+    "id": "bm-ioc",
+    "term": "IOC",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "지금 바로 체결 가능한 수량만 거래하고 나머지는 즉시 취소하는 조건",
+    "example": "100주 주문 중 60주만 바로 되면 60주만 사고 40주는 취소돼요."
+  },
+  {
+    "id": "bm-fok",
+    "term": "FOK",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "주문 전량이 즉시 체결되지 않으면 전부 취소하는 조건",
+    "example": "100주가 한 번에 다 안 되면 단 1주도 사지 않아요."
+  },
+  {
+    "id": "bm-best-own-limit",
+    "term": "최우선지정가주문",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "주문 순간 내 쪽 방향의 가장 좋은 호가 가격으로 지정되는 주문",
+    "example": "살 때는 지금 가장 비싸게 사려는 가격에 줄을 서게 돼요."
+  },
+  {
+    "id": "bm-sor",
+    "term": "SOR(자동주문전송)",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "여러 거래 시장의 가격을 비교해 유리한 곳으로 주문을 보내는 시스템",
+    "example": "같은 종목이 두 시장에서 거래될 때 증권사가 자동으로 길을 골라 줘요."
+  },
+  {
+    "id": "bm-best-execution",
+    "term": "최선집행의무",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "증권사가 고객 주문을 가장 유리한 조건으로 처리해야 하는 의무",
+    "example": "대체거래소 출범으로 여러 시장 중 어디로 보낼지 기준을 공개해야 해요."
+  },
+  {
+    "id": "bm-stock-borrowing-retail",
+    "term": "대주거래",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "개인이 증권사에서 주식을 빌려 판 뒤 나중에 사서 갚는 거래",
+    "example": "개인용 공매도 수단으로, 관련 제도는 바뀔 수 있어요."
+  },
+  {
+    "id": "bm-securities-lending",
+    "term": "대차거래",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "기관끼리 주식을 일정 기간 빌려주고 빌리는 거래",
+    "example": "빌린 쪽은 수수료를 내고 나중에 같은 주식으로 돌려줘요."
+  },
+  {
+    "id": "bm-clearing",
+    "term": "청산",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "거래 후 누가 누구에게 무엇을 줄지 확정하고 서로 상계하는 과정",
+    "example": "수많은 거래를 정리해 최종으로 주고받을 차액만 남겨요."
+  },
+  {
+    "id": "bm-ccp",
+    "term": "중앙청산소(CCP)",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "거래 당사자 사이에 서서 결제 이행을 보장하는 기관",
+    "example": "국내 장내 거래에선 한국거래소가 이 역할을 맡아요."
+  },
+  {
+    "id": "bm-random-end",
+    "term": "랜덤엔드",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "단일가매매 마감 시각을 무작위로 조금 늦춰 허수 주문을 막는 제도",
+    "example": "정확히 언제 끝날지 몰라 막판 가격 조작이 어려워져요."
+  },
+  {
+    "id": "bm-static-vi",
+    "term": "정적 VI",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "전날 종가 등 기준 가격보다 일정 비율 이상 움직이면 발동되는 장치",
+    "example": "하루 기준점 대비 크게 벗어났을 때 잠시 숨을 고르게 해요."
+  },
+  {
+    "id": "bm-dynamic-vi",
+    "term": "동적 VI",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "직전 체결가보다 순간적으로 크게 움직이면 발동되는 장치",
+    "example": "큰 주문 하나로 가격이 한 번에 튈 때 주로 걸려요."
+  },
+  {
+    "id": "bm-cap-weighted",
+    "term": "시가총액가중방식",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "덩치가 큰 회사일수록 지수에 더 크게 반영되는 지수 계산법",
+    "example": "코스피는 이 방식이라 대형주 몇 개가 지수를 크게 움직여요."
+  },
+  {
+    "id": "bm-free-float",
+    "term": "유동주식비율",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "전체 주식 중 대주주 보유분 등을 빼고 실제로 거래될 수 있는 비중",
+    "example": "많은 지수가 이 비율을 반영해 종목 비중을 정해요."
+  },
+  {
+    "id": "bm-vkospi",
+    "term": "VKOSPI",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "코스피200 옵션 가격으로 계산한 국내 증시 예상 변동성 지수",
+    "example": "시장이 불안해지면 이 수치가 오르는 경향이 있어 '공포지수'라고도 해요."
+  },
+  {
+    "id": "bm-proprietary-trading",
+    "term": "자기매매",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "증권사가 고객 돈이 아닌 자기 돈으로 하는 매매",
+    "example": "고객 주문을 대신 처리하는 위탁매매와 구분돼요."
+  },
+  {
+    "id": "bm-dark-pool",
+    "term": "다크풀",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "주문 내용을 공개하지 않고 대량 매매를 체결하는 비공개 거래 방식",
+    "example": "큰 주문이 미리 알려져 가격이 출렁이는 것을 피하려고 써요."
+  },
+  {
+    "id": "bm-hft",
+    "term": "고빈도매매(HFT)",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "알고리즘으로 아주 짧은 순간에 대량 주문을 냈다 빼는 초단타 매매",
+    "example": "사람은 따라갈 수 없는 1초 미만 단위로 거래해요."
+  },
+  {
+    "id": "bm-frozen-account",
+    "term": "미수동결계좌",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "미수금을 못 갚아 일정 기간 현금을 다 갖춰야만 주문할 수 있게 된 계좌",
+    "example": "이 상태에선 증거금 100%가 있어야 주식을 살 수 있어요."
+  },
+  {
+    "id": "bm-foreign-limit",
+    "term": "외국인 한도소진율",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "법으로 정한 외국인 보유 상한 대비 이미 보유한 비율",
+    "example": "통신처럼 외국인 지분 상한이 있는 업종에서 확인하는 지표예요."
+  },
+  {
+    "id": "bm-window-dressing",
+    "term": "윈도드레싱",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "결산 시기 전에 기관이 수익률을 좋게 보이려 보유 종목을 손보는 행위",
+    "example": "분기 말이나 연말에 일부 종목이 이상하게 오르면 거론돼요."
+  },
+  {
+    "id": "bm-advance-decline",
+    "term": "등락비율",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "일정 기간 오른 종목 수를 내린 종목 수로 나눈 시장 지표",
+    "example": "지수는 올라도 이 값이 낮으면 일부 대형주만 오른 장일 수 있어요."
+  },
+  {
+    "id": "bm-settlement-failure",
+    "term": "결제불이행",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "정해진 결제일에 돈이나 증권을 넘겨주지 못하는 사고",
+    "example": "시장 전체 신뢰가 흔들릴 수 있어 여러 겹의 보장 장치를 둬요."
+  },
+  {
+    "id": "bm-price-discovery",
+    "term": "가격발견",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "수많은 매매를 통해 자산의 적정 가격이 정해지는 시장 기능",
+    "example": "새 정보가 나오면 사고팔기가 이어지며 가격이 새 균형을 찾아가요."
+  },
+  {
+    "id": "bm-cross-trade",
+    "term": "자전거래",
+    "category": "시장·거래",
+    "level": 4,
+    "short": "같은 주체나 창구가 사자와 팔자 주문을 맞춰 스스로 체결시키는 거래",
+    "example": "정당한 대량 이전에도 쓰이지만 거래를 꾸미는 데 쓰이면 불법이에요."
+  }
+]

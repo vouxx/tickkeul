@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "st-long-term-investing",
+    "term": "장기투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "좋은 자산을 수년 이상 보유하며 기업 성장과 복리 효과를 기대하는 방식",
+    "example": "주가가 출렁여도 기업 가치를 보고 5년, 10년씩 들고 가요."
+  },
+  {
+    "id": "st-short-term-trading",
+    "term": "단타",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "며칠 이내의 짧은 가격 변동에서 차익을 노리는 매매",
+    "example": "'단기 매매'를 줄인 구어예요. 하루에도 여러 번 사고팔기도 해요."
+  },
+  {
+    "id": "st-swing-trading",
+    "term": "스윙",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "며칠에서 몇 주 동안 보유하며 중간 크기의 파동을 노리는 매매",
+    "example": "스윙 매매라고도 해요. 단타보다 길고 장기투자보다 짧아요."
+  },
+  {
+    "id": "st-day-trading",
+    "term": "데이트레이딩",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "당일 사고 당일 모두 정리해 다음 날로 물량을 넘기지 않는 매매",
+    "example": "밤사이 터지는 뉴스 위험은 피하지만 수수료와 집중력 부담이 커요."
+  },
+  {
+    "id": "st-dividend-investing",
+    "term": "배당 투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "꾸준히 이익을 현금으로 나눠 주는 기업에 투자해 정기 수입을 노리는 방식",
+    "example": "주가 차익보다 매년 들어오는 현금 흐름을 더 중시해요."
+  },
+  {
+    "id": "st-value-investing",
+    "term": "가치투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "내재가치보다 싸게 거래되는 주식을 사서 제값을 찾길 기다리는 방식",
+    "example": "벤저민 그레이엄과 워런 버핏이 대표 인물로 꼽혀요."
+  },
+  {
+    "id": "st-growth-investing",
+    "term": "성장투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "매출과 이익이 빠르게 늘어날 기업에 높은 가격을 감수하고 투자하는 방식",
+    "example": "지금 비싸 보여도 미래 실적이 따라오면 정당화된다고 봐요."
+  },
+  {
+    "id": "st-index-investing",
+    "term": "인덱스 투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "코스피200 같은 시장 지수를 그대로 따라가는 상품에 투자하는 방식",
+    "example": "종목을 고르지 않고 시장 평균 수익을 낮은 비용으로 얻으려 해요."
+  },
+  {
+    "id": "st-passive-investing",
+    "term": "패시브 투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "종목·시점 선택을 최소화하고 정해진 규칙대로 시장을 따라가는 투자 태도",
+    "example": "인덱스 펀드나 ETF를 사서 거의 손대지 않는 방식이 대표적이에요."
+  },
+  {
+    "id": "st-active-investing",
+    "term": "액티브 투자",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "시장 평균을 이기려고 종목과 매매 시점을 적극적으로 고르는 투자",
+    "example": "운용 비용이 높고, 장기적으로 지수를 꾸준히 이기기 어렵다는 연구가 많아요."
+  },
+  {
+    "id": "st-asset-allocation",
+    "term": "자산배분",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "주식·채권·현금 등 자산군별로 투자 비중을 정하는 일",
+    "example": "어떤 종목을 고르느냐보다 장기 성과에 큰 영향을 준다는 연구가 있어요."
+  },
+  {
+    "id": "st-benchmark",
+    "term": "벤치마크",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "투자 성과를 비교·평가하는 기준이 되는 지수나 수익률",
+    "example": "국내 주식형 펀드는 보통 코스피 지수와 성과를 비교해요."
+  },
+  {
+    "id": "st-opportunity-cost",
+    "term": "기회비용",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "어떤 선택을 하느라 포기한 다른 선택지 중 가장 큰 가치",
+    "example": "현금을 묵혀 두면 예금 이자만큼은 놓친 셈이에요."
+  },
+  {
+    "id": "st-sunk-cost",
+    "term": "매몰비용",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "이미 써 버려서 어떤 결정을 해도 되돌릴 수 없는 비용",
+    "example": "이미 난 손실은 앞으로의 판단 근거가 되면 안 돼요."
+  },
+  {
+    "id": "st-split-buying",
+    "term": "분할 매수",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "살 금액을 여러 번으로 나눠 시차를 두고 사는 방법",
+    "example": "한 번에 다 사는 것보다 타이밍 실수의 영향을 줄여요."
+  },
+  {
+    "id": "st-split-selling",
+    "term": "분할 매도",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "팔 물량을 여러 차례에 나눠 단계적으로 파는 방법",
+    "example": "목표가에 절반, 더 오르면 나머지를 파는 식이에요."
+  },
+  {
+    "id": "st-take-profit",
+    "term": "익절",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "수익이 난 상태에서 팔아 이익을 확정하는 것",
+    "example": "'이익 보고 끊는다'는 뜻의 구어예요. 손절의 반대말이에요."
+  },
+  {
+    "id": "st-cash-weight",
+    "term": "현금 비중",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "전체 투자 자산 중 바로 쓸 수 있는 돈이 차지하는 비율",
+    "example": "급락장에서 살 기회를 잡으려고 일부러 높여 두기도 해요."
+  },
+  {
+    "id": "st-jonbeo",
+    "term": "존버",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "손실이 나도 팔지 않고 끝까지 버티는 것을 이르는 말",
+    "example": "'끝까지 버틴다'는 뜻의 비속어에서 나온 은어예요."
+  },
+  {
+    "id": "st-mullinda",
+    "term": "물린다",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "산 가격보다 주가가 떨어져 손해 때문에 팔지 못하고 묶이는 상황",
+    "example": "'고점에 물렸다'처럼 쓰는 구어예요."
+  },
+  {
+    "id": "st-gaemi",
+    "term": "개미",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "기관·외국인과 구분해 개인 투자자를 일컫는 속칭",
+    "example": "구어예요. 개인 투자자 무리를 '개미군단'이라고도 불러요."
+  },
+  {
+    "id": "st-keunson",
+    "term": "큰손",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "막대한 자금으로 시장 흐름에 영향을 줄 만한 투자자",
+    "example": "구어예요. 연기금이나 거액 자산가를 가리킬 때 써요."
+  },
+  {
+    "id": "st-seryeok",
+    "term": "세력",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "큰 자금을 모아 특정 종목 시세를 좌우하려는 집단을 이르는 구어",
+    "example": "급등락의 원인을 막연히 이것 탓으로 돌리는 경우도 많아요."
+  },
+  {
+    "id": "st-sangtu",
+    "term": "상투",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "주가가 단기간 오를 대로 올라 꼭대기에 이른 지점",
+    "example": "'상투 잡았다'는 최고점 근처에 샀다는 뜻의 구어예요."
+  },
+  {
+    "id": "st-bottom",
+    "term": "바닥",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "하락하던 주가가 더 내려가지 않고 멈춘 최저 구간",
+    "example": "지나고 나서야 알 수 있어서 정확히 맞히기는 어려워요."
+  },
+  {
+    "id": "st-ttoksang",
+    "term": "떡상",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "주가가 갑자기 크게 오르는 것을 뜻하는 인터넷 은어",
+    "example": "구어예요. 공식 문서에서는 '급등'이라고 써요."
+  },
+  {
+    "id": "st-ttokrak",
+    "term": "떡락",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "주가가 갑자기 크게 떨어지는 것을 뜻하는 인터넷 은어",
+    "example": "구어예요. 공식 문서에서는 '급락'이라고 써요."
+  },
+  {
+    "id": "st-molppang",
+    "term": "몰빵",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "자금 대부분을 한 종목에 몰아넣는 것을 이르는 은어",
+    "example": "구어예요. 맞으면 크지만 틀리면 회복이 어려워요."
+  },
+  {
+    "id": "st-panic-sell",
+    "term": "패닉셀",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "급락에 겁먹고 가격을 따지지 않은 채 서둘러 던지는 매도",
+    "example": "공포가 극에 달한 시점이 오히려 저점인 경우도 있어요."
+  },
+  {
+    "id": "st-chasing",
+    "term": "추격 매수",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "이미 많이 오른 종목을 뒤늦게 따라 사는 것",
+    "example": "급등 뒤 되돌림이 오면 바로 손실을 볼 수 있어요."
+  },
+  {
+    "id": "st-fire",
+    "term": "파이어족",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "공격적으로 저축·투자해 경제적 자립과 조기 은퇴를 노리는 사람들",
+    "example": "FIRE는 Financial Independence, Retire Early의 줄임말이에요."
+  },
+  {
+    "id": "st-rule-of-72",
+    "term": "72의 법칙",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "72를 연 수익률(%)로 나눠 원금이 두 배 되는 기간을 어림하는 공식",
+    "example": "연 8%면 72÷8=9, 약 9년이 걸려요."
+  },
+  {
+    "id": "st-market-timing",
+    "term": "시장 타이밍",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "시장의 고점과 저점을 예측해 사고팔 시점을 고르려는 시도",
+    "example": "꾸준히 맞히기는 매우 어렵다는 연구가 많아요."
+  },
+  {
+    "id": "st-dca",
+    "term": "달러 비용 평균법",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "가격과 무관하게 같은 금액을 일정 주기로 사서 평균 단가를 고르게 하는 방법",
+    "example": "쌀 때는 더 많은 수량을, 비쌀 때는 적은 수량을 자동으로 사게 돼요."
+  },
+  {
+    "id": "st-seed-money",
+    "term": "시드머니",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "투자를 시작할 때 굴리는 첫 종잣돈",
+    "example": "구어예요. '시드가 작다'처럼 줄여 말하기도 해요."
+  },
+  {
+    "id": "st-trading-journal",
+    "term": "매매일지",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "매매 이유와 결과, 감정을 기록해 습관을 점검하는 노트",
+    "example": "왜 샀는지 적어 두면 같은 실수를 반복하지 않게 도와줘요."
+  },
+  {
+    "id": "st-risk-tolerance",
+    "term": "위험 감수 성향",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "손실 가능성을 심리적·재정적으로 얼마나 견딜 수 있는지의 정도",
+    "example": "같은 나이라도 소득과 성격에 따라 크게 달라요."
+  },
+  {
+    "id": "st-investment-horizon",
+    "term": "투자 기간",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "투자금을 쓰지 않고 묶어 둘 수 있는 예상 기간",
+    "example": "1년 뒤 쓸 돈과 20년 뒤 쓸 돈은 담을 자산이 달라요."
+  },
+  {
+    "id": "st-leading-room",
+    "term": "리딩방",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "종목과 매매 시점을 찍어 준다며 회원을 모으는 단체 채팅방",
+    "example": "구어예요. 미등록 업체의 불법 투자자문이나 사기 사례가 많아요."
+  },
+  {
+    "id": "st-knee-shoulder",
+    "term": "무릎에 사서 어깨에 팔아라",
+    "category": "투자 전략",
+    "level": 1,
+    "short": "정확한 바닥과 꼭대기를 노리지 말고 적당한 구간에서 사고팔라는 격언",
+    "example": "욕심을 줄이라는 뜻의 오래된 증시 격언이에요."
+  },
+  {
+    "id": "st-scalping",
+    "term": "스캘핑",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "몇 초~몇 분 단위로 아주 작은 가격 차이를 반복해 노리는 초단타 매매",
+    "example": "한 번 수익은 작지만 하루 수십~수백 번 매매해요."
+  },
+  {
+    "id": "st-momentum-investing",
+    "term": "모멘텀 투자",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "최근 강하게 오른 자산이 한동안 더 오를 것으로 보고 따라 사는 방식",
+    "example": "'달리는 말에 올라탄다'는 표현과 비슷해요."
+  },
+  {
+    "id": "st-contrarian-investing",
+    "term": "역발상 투자",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "시장 다수가 비관할 때 사고 낙관할 때 파는, 대중과 반대로 가는 방식",
+    "example": "'공포에 사고 탐욕에 팔라'는 말이 이 철학을 담고 있어요."
+  },
+  {
+    "id": "st-trend-following",
+    "term": "추세 추종",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "오르는 흐름이면 사고 꺾이면 파는 식으로 가격 방향을 따라가는 전략",
+    "example": "방향을 예측하기보다 이미 생긴 흐름에 반응해요."
+  },
+  {
+    "id": "st-mean-reversion",
+    "term": "평균 회귀",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "가격이 평균에서 크게 벗어났다가 다시 평균 쪽으로 돌아오려는 경향",
+    "example": "너무 많이 빠진 종목의 반등을 노리는 전략의 근거가 돼요."
+  },
+  {
+    "id": "st-quant",
+    "term": "퀀트",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "재무·가격 데이터와 수학 모형으로 정한 규칙에 따라 투자하는 방식",
+    "example": "사람의 감정을 빼고 숫자로만 종목을 고르려 해요."
+  },
+  {
+    "id": "st-top-down",
+    "term": "탑다운 분석",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "경기·산업 같은 큰 흐름부터 본 뒤 종목을 좁혀 고르는 분석 방식",
+    "example": "금리 하락 → 성장 업종 → 대표 기업 순으로 내려가요."
+  },
+  {
+    "id": "st-bottom-up",
+    "term": "바텀업 분석",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "거시 흐름보다 개별 기업 분석에서 출발해 종목을 고르는 방식",
+    "example": "경기와 상관없이 좋은 회사를 찾는 데 집중해요."
+  },
+  {
+    "id": "st-concentrated-investing",
+    "term": "집중 투자",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "확신 있는 소수 종목에 큰 비중을 두는 투자 방식",
+    "example": "분산과 반대 개념으로, 성과 편차가 커져요."
+  },
+  {
+    "id": "st-portfolio-6040",
+    "term": "60/40 포트폴리오",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "주식 60%, 채권 40%로 나눠 담는 전통적인 자산배분",
+    "example": "주식이 빠질 때 채권이 완충해 주길 기대하는 구성이에요."
+  },
+  {
+    "id": "st-core-satellite",
+    "term": "코어-위성 전략",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "안정적인 핵심 자산에 대부분을 두고 일부로만 공격적으로 투자하는 구성",
+    "example": "70~80%는 지수 ETF, 나머지는 개별 종목에 두는 식이에요."
+  },
+  {
+    "id": "st-correlation",
+    "term": "상관관계",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "두 자산의 가격이 같은 방향으로 함께 움직이는 정도",
+    "example": "-1부터 1 사이의 상관계수로 나타내요."
+  },
+  {
+    "id": "st-standard-deviation",
+    "term": "표준편차",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "수익률이 평균에서 얼마나 넓게 흩어져 있는지 나타내는 값",
+    "example": "투자에서는 변동성을 재는 대표 지표로 써요."
+  },
+  {
+    "id": "st-mdd",
+    "term": "최대낙폭(MDD)",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "일정 기간 동안 고점에서 이후 저점까지 가장 크게 떨어진 비율",
+    "example": "100에서 60까지 빠졌다면 -40%예요."
+  },
+  {
+    "id": "st-diversification-effect",
+    "term": "분산 효과",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "함께 움직이지 않는 자산을 섞어 전체 출렁임을 줄이는 효과",
+    "example": "상관관계가 낮을수록 효과가 커요."
+  },
+  {
+    "id": "st-reward-risk-ratio",
+    "term": "손익비",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "한 번 매매에서 기대하는 이익 폭을 감수하는 손실 폭으로 나눈 비율",
+    "example": "손절 5%, 목표 15%라면 1:3이에요."
+  },
+  {
+    "id": "st-win-rate",
+    "term": "승률",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "전체 매매 가운데 이익으로 끝난 매매의 비율",
+    "example": "높아도 한 번 손실이 크면 전체는 마이너스일 수 있어요."
+  },
+  {
+    "id": "st-position-sizing",
+    "term": "포지션 사이징",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "한 종목이나 한 번의 매매에 자금을 얼마나 실을지 정하는 일",
+    "example": "손절 폭과 감당할 손실액을 먼저 정하고 투자 금액을 거꾸로 계산해요."
+  },
+  {
+    "id": "st-trailing-stop",
+    "term": "트레일링 스톱",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "주가가 오르면 함께 따라 올라가는 손절 기준으로 이익을 지키는 방법",
+    "example": "고점 대비 10% 빠지면 판다고 정해 두는 식이에요."
+  },
+  {
+    "id": "st-loss-recovery-asymmetry",
+    "term": "손실 비대칭",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "떨어진 뒤 원금을 되찾는 데 필요한 상승률이 하락률보다 커지는 현상",
+    "example": "50% 손실이면 100%가 올라야 본전이에요."
+  },
+  {
+    "id": "st-loss-aversion",
+    "term": "손실 회피",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "같은 크기라도 이익의 기쁨보다 손해의 고통을 더 크게 느끼는 경향",
+    "example": "손해의 고통이 이익의 기쁨보다 약 2배 크다는 연구가 있어요."
+  },
+  {
+    "id": "st-confirmation-bias",
+    "term": "확증 편향",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "자기 생각에 맞는 정보만 골라 보고 반대 정보는 무시하는 경향",
+    "example": "산 종목의 호재 기사만 찾아 읽는 게 대표적이에요."
+  },
+  {
+    "id": "st-anchoring",
+    "term": "앵커링",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "처음 접한 숫자에 이후 판단이 끌려가는 경향",
+    "example": "'내가 산 가격'이나 '전고점'이 흔한 기준점이 돼요."
+  },
+  {
+    "id": "st-herd-behavior",
+    "term": "군집 행동",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "남들이 사면 따라 사고 팔면 따라 파는 무리 짓기 행동",
+    "example": "거품과 폭락을 키우는 원인으로 자주 지목돼요."
+  },
+  {
+    "id": "st-disposition-effect",
+    "term": "처분 효과",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "오른 주식은 서둘러 팔고 떨어진 주식은 오래 붙들고 있는 경향",
+    "example": "결국 좋은 종목은 일찍 놓치고 나쁜 종목만 남기 쉬워요."
+  },
+  {
+    "id": "st-overconfidence",
+    "term": "과잉 확신",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "자기 판단이나 정보의 정확도를 실제보다 높게 믿는 경향",
+    "example": "매매가 지나치게 잦아지는 원인이 된다는 연구가 있어요."
+  },
+  {
+    "id": "st-survivorship-bias",
+    "term": "생존 편향",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "살아남은 사례만 보고 사라진 실패 사례를 빠뜨려 잘못 판단하는 오류",
+    "example": "청산된 펀드를 빼고 평균을 내면 성과가 부풀려져요."
+  },
+  {
+    "id": "st-break-even-mindset",
+    "term": "본전 심리",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "원금을 회복할 때까지는 절대 팔지 않으려는 마음",
+    "example": "산 가격은 시장이 신경 쓰지 않는 숫자예요."
+  },
+  {
+    "id": "st-noedong-trading",
+    "term": "뇌동매매",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "자기 기준 없이 남의 말이나 시장 분위기에 휩쓸려 하는 매매",
+    "example": "추천 문자 한 통에 급히 사는 경우가 대표적이에요."
+  },
+  {
+    "id": "st-jakjeonju",
+    "term": "작전주",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "세력이 시세를 인위적으로 조종하는 것으로 의심되는 종목",
+    "example": "구어예요. 시세조종은 자본시장법상 불법이에요."
+  },
+  {
+    "id": "st-gaemi-teolgi",
+    "term": "개미털기",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "주가를 일부러 흔들어 개인 투자자가 겁먹고 물량을 던지게 만드는 행위",
+    "example": "구어예요. 실제 의도가 있었는지 확인하기는 어려워요."
+  },
+  {
+    "id": "st-seolgeoji",
+    "term": "설거지",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "고점에서 보유 물량을 개인에게 떠넘기고 빠져나가는 것을 이르는 은어",
+    "example": "구어예요. 그 뒤 주가가 급락해 늦게 산 사람이 손실을 떠안아요."
+  },
+  {
+    "id": "st-falling-knife",
+    "term": "떨어지는 칼날",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "급락 중인 주식을 섣불리 사는 위험을 빗댄 표현",
+    "example": "'떨어지는 칼날은 잡지 마라'는 증시 격언에서 나왔어요."
+  },
+  {
+    "id": "st-buy-rumor-sell-news",
+    "term": "소문에 사서 뉴스에 팔아라",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "기대가 퍼질 때 사고 실제 발표가 나오면 팔라는 격언",
+    "example": "발표 당일 오히려 주가가 빠지는 현상을 설명할 때 써요."
+  },
+  {
+    "id": "st-expected-return",
+    "term": "기대수익률",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "가능한 결과에 확률을 곱해 평균적으로 예상하는 수익률",
+    "example": "보장된 수익이 아니라 확률적 평균이에요."
+  },
+  {
+    "id": "st-excess-return",
+    "term": "초과수익",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "비교 기준 대비 추가로 더 거둔 수익",
+    "example": "지수가 8%, 내 펀드가 11%면 3%p예요."
+  },
+  {
+    "id": "st-rule-100-minus-age",
+    "term": "100-나이 법칙",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "100에서 나이를 뺀 숫자만큼을 주식 비중으로 두자는 어림 규칙",
+    "example": "30세면 주식 70%예요. 개인 사정에 따라 조정이 필요해요."
+  },
+  {
+    "id": "st-dividend-growth-investing",
+    "term": "배당 성장 투자",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "배당금을 해마다 꾸준히 늘려 온 기업에 투자하는 방식",
+    "example": "지금 배당률보다 배당이 늘어나는 속도에 주목해요."
+  },
+  {
+    "id": "st-risk-management",
+    "term": "리스크 관리",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "손실 가능성을 파악하고 감당할 수 있는 수준으로 통제하는 활동",
+    "example": "포지션 크기 제한과 손절 원칙이 기본 도구예요."
+  },
+  {
+    "id": "st-weight-adjustment",
+    "term": "비중 조절",
+    "category": "투자 전략",
+    "level": 2,
+    "short": "자산이나 종목별 투자 비율을 상황에 맞게 늘리거나 줄이는 것",
+    "example": "'비중 축소' 의견은 일부 팔라는 뜻으로 읽혀요."
+  },
+  {
+    "id": "st-factor-investing",
+    "term": "팩터 투자",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "가치·모멘텀 등 수익률을 설명하는 공통 특성에 체계적으로 투자하는 방식",
+    "example": "종목이 아니라 '싼 주식', '튼튼한 주식' 같은 특성을 사요."
+  },
+  {
+    "id": "st-value-factor",
+    "term": "가치 팩터",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "이익이나 장부가 대비 싼 주식이 장기적으로 초과수익을 냈다는 특성",
+    "example": "PER·PBR이 낮은 종목을 묶어 사는 방식으로 활용해요."
+  },
+  {
+    "id": "st-momentum-factor",
+    "term": "모멘텀 팩터",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "지난 수개월~1년 수익률이 높던 주식이 한동안 강세를 잇는 경향",
+    "example": "급격한 반전 국면에서는 큰 손실이 나기도 해요."
+  },
+  {
+    "id": "st-quality-factor",
+    "term": "퀄리티 팩터",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "수익성이 높고 부채가 적은 우량 기업 특성에 주목하는 요인",
+    "example": "ROE, 이익 안정성, 낮은 부채비율 등을 지표로 써요."
+  },
+  {
+    "id": "st-low-volatility-factor",
+    "term": "저변동성 팩터",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "주가 출렁임이 작은 주식이 위험 대비 성과가 좋았다는 관찰에 기반한 요인",
+    "example": "'위험이 클수록 수익도 크다'는 상식과 어긋나 이상현상으로 불려요."
+  },
+  {
+    "id": "st-size-factor",
+    "term": "사이즈 팩터",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "소형주가 대형주보다 장기 수익률이 높았다는 관찰에 기반한 요인",
+    "example": "최근 수십 년 동안은 효과가 약해졌다는 연구도 있어요."
+  },
+  {
+    "id": "st-smart-beta",
+    "term": "스마트 베타",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "시가총액 대신 팩터 같은 규칙으로 종목 비중을 정하는 지수 투자",
+    "example": "패시브와 액티브의 중간 형태로 불려요."
+  },
+  {
+    "id": "st-equal-weight",
+    "term": "동일가중",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "모든 종목에 똑같은 비중을 두는 포트폴리오 구성 방식",
+    "example": "소형주 비중이 상대적으로 커지는 효과가 있어요."
+  },
+  {
+    "id": "st-cap-weight",
+    "term": "시가총액 가중",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "회사 크기(시총)에 비례해 종목 비중을 정하는 방식",
+    "example": "코스피200 같은 대표 지수가 대부분 이 방식이에요."
+  },
+  {
+    "id": "st-all-weather",
+    "term": "올웨더 포트폴리오",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "경기·물가 국면과 상관없이 버티도록 위험을 고르게 나눈 자산배분",
+    "example": "레이 달리오의 브리지워터가 알린 개념이에요."
+  },
+  {
+    "id": "st-permanent-portfolio",
+    "term": "영구 포트폴리오",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "주식·장기채·금·현금을 25%씩 나눠 담는 자산배분",
+    "example": "해리 브라운이 제안했어요. 어떤 국면이든 하나는 버틴다는 발상이에요."
+  },
+  {
+    "id": "st-risk-parity",
+    "term": "리스크 패리티",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "자산별 위험 기여도가 같아지도록 투자 비중을 정하는 방법",
+    "example": "변동성이 작은 채권 비중이 크게 늘어나는 경향이 있어요."
+  },
+  {
+    "id": "st-mpt",
+    "term": "현대 포트폴리오 이론",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "자산 간 상관관계를 이용해 위험 대비 수익을 최적화하는 이론",
+    "example": "해리 마코위츠가 1952년에 제시했어요."
+  },
+  {
+    "id": "st-sharpe-ratio",
+    "term": "샤프지수",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "무위험 수익률을 넘는 초과수익을 변동성으로 나눠 위험 대비 성과를 보는 지표",
+    "example": "(수익률-무위험 수익률)÷표준편차로 계산해요."
+  },
+  {
+    "id": "st-alpha",
+    "term": "알파",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "벤치마크나 시장 위험으로 설명되지 않는 초과수익",
+    "example": "운용 실력을 보여 주는 숫자로 흔히 해석해요."
+  },
+  {
+    "id": "st-beta",
+    "term": "베타",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "시장이 1% 움직일 때 해당 자산이 평균적으로 몇 % 움직이는지 나타낸 값",
+    "example": "1보다 크면 시장보다 더 크게 출렁여요."
+  },
+  {
+    "id": "st-risk-free-rate",
+    "term": "무위험 수익률",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "국채처럼 떼일 위험이 사실상 없는 자산에서 얻는 수익률",
+    "example": "다른 투자 성과를 평가하는 바닥 기준이 돼요."
+  },
+  {
+    "id": "st-risk-premium",
+    "term": "위험 프리미엄",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "위험한 자산이 안전 자산보다 더 얹어 줄 것으로 기대되는 추가 수익",
+    "example": "주식은 손실 위험을 감수하는 대가로 이를 기대해요."
+  },
+  {
+    "id": "st-systematic-risk",
+    "term": "체계적 위험",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "경기·금리처럼 시장 전체에 영향을 줘 종목을 늘려도 없앨 수 없는 위험",
+    "example": "시장 위험이라고도 해요."
+  },
+  {
+    "id": "st-unsystematic-risk",
+    "term": "비체계적 위험",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "개별 기업의 고유한 사정에서 생겨 여러 종목에 나눠 담으면 줄일 수 있는 위험",
+    "example": "횡령, 신제품 실패 같은 기업 고유 악재가 예예요."
+  },
+  {
+    "id": "st-cagr",
+    "term": "연평균 성장률(CAGR)",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "시작값에서 끝값까지 매년 같은 비율로 불었다고 볼 때의 연 수익률",
+    "example": "2년에 44% 올랐다면 연 20%예요."
+  },
+  {
+    "id": "st-recovery-period",
+    "term": "회복 기간",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "최대 손실 이후 직전 고점을 되찾기까지 걸린 시간",
+    "example": "깊게 빠질수록 길어지는 경향이 있어요."
+  },
+  {
+    "id": "st-expectancy",
+    "term": "기댓값",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "승률×평균 이익에서 패율×평균 손실을 뺀 매매 한 번의 평균 결과",
+    "example": "승률이 낮아도 이 값이 플러스면 장기적으로 유리한 전략이에요."
+  },
+  {
+    "id": "st-two-percent-rule",
+    "term": "2% 룰",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "한 번의 매매에서 잃을 수 있는 최대 금액을 총자산의 2% 이내로 묶는 원칙",
+    "example": "자산 1천만 원이면 한 번에 최대 20만 원까지만 잃도록 설계해요."
+  },
+  {
+    "id": "st-pyramiding",
+    "term": "피라미딩",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "수익이 나는 포지션에 단계적으로 추가 매수해 비중을 키우는 방법",
+    "example": "떨어질 때 더 사는 물타기와 반대 방향이에요."
+  },
+  {
+    "id": "st-four-percent-rule",
+    "term": "4% 룰",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "은퇴 첫해 자산의 4%를 꺼내 쓰고 이후 물가만큼 늘려 인출하는 어림 규칙",
+    "example": "미국 과거 데이터상 30년 정도 버틸 수 있었다는 연구에서 나왔어요."
+  },
+  {
+    "id": "st-backtest",
+    "term": "백테스트",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "과거 데이터에 전략을 적용해 성과를 미리 검증해 보는 일",
+    "example": "과거 성과가 미래를 보장하진 않아요."
+  },
+  {
+    "id": "st-tail-risk",
+    "term": "꼬리 위험",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "일어날 확률은 낮지만 한 번 터지면 손실이 매우 큰 위험",
+    "example": "분포 그래프의 양 끝 '꼬리'에 해당해서 붙은 이름이에요."
+  },
+  {
+    "id": "st-black-swan",
+    "term": "블랙 스완",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "거의 예측할 수 없지만 일어나면 충격이 매우 큰 드문 사건",
+    "example": "나심 탈레브가 널리 알린 개념이에요."
+  },
+  {
+    "id": "st-absolute-return",
+    "term": "절대수익 추구",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "시장 등락과 상관없이 플러스 수익을 내는 것을 목표로 하는 전략",
+    "example": "지수 대비 성과보다 손실을 내지 않는 데 초점을 둬요."
+  },
+  {
+    "id": "st-turnover",
+    "term": "회전율",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "일정 기간 포트폴리오를 얼마나 자주 사고팔았는지 나타내는 비율",
+    "example": "높을수록 거래비용과 세금 부담이 커져요."
+  },
+  {
+    "id": "st-behavioral-finance",
+    "term": "행동재무학",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "투자자의 심리와 비합리적 행동이 시장에 주는 영향을 연구하는 분야",
+    "example": "대니얼 카너먼과 리처드 세일러 등이 노벨상을 받았어요."
+  },
+  {
+    "id": "st-efficient-market-hypothesis",
+    "term": "효율적 시장 가설",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "알려진 정보는 이미 가격에 반영돼 꾸준히 시장을 이기기 어렵다는 이론",
+    "example": "유진 파마가 정리했고, 인덱스 투자의 이론적 근거가 돼요."
+  },
+  {
+    "id": "st-random-walk",
+    "term": "랜덤 워크",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "주가의 다음 움직임은 과거 흐름으로 예측할 수 없이 무작위라는 관점",
+    "example": "버턴 말킬의 책 제목으로도 유명해요."
+  },
+  {
+    "id": "st-recency-bias",
+    "term": "최근성 편향",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "최근에 일어난 일이 앞으로도 계속될 거라 과대평가하는 경향",
+    "example": "몇 달 오른 시장을 보고 계속 오를 거라 믿는 경우예요."
+  },
+  {
+    "id": "st-hindsight-bias",
+    "term": "사후확신 편향",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "결과를 안 뒤에 처음부터 예측할 수 있었다고 믿는 경향",
+    "example": "'그럴 줄 알았어'라는 말이 대표적이에요."
+  },
+  {
+    "id": "st-mental-accounting",
+    "term": "심리적 회계",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "돈의 출처나 용도에 따라 같은 돈을 다르게 취급하는 경향",
+    "example": "보너스로 받은 돈은 더 쉽게 위험하게 굴려요."
+  },
+  {
+    "id": "st-gamblers-fallacy",
+    "term": "도박사의 오류",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "독립적인 일에서 한쪽 결과가 이어지면 이제 반대가 나올 차례라고 믿는 착각",
+    "example": "'5일 연속 올랐으니 내일은 빠지겠지' 같은 생각이에요."
+  },
+  {
+    "id": "st-status-quo-bias",
+    "term": "현상 유지 편향",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "바꾸는 게 더 나아도 지금 상태를 그대로 두려는 경향",
+    "example": "퇴직연금을 처음 고른 상품 그대로 수년간 방치하는 경우예요."
+  },
+  {
+    "id": "st-endowment-effect",
+    "term": "보유 효과",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "이미 가진 것을 같은 물건이라도 더 가치 있게 여기는 경향",
+    "example": "내 종목은 남의 종목보다 더 좋아 보이게 만들어요."
+  },
+  {
+    "id": "st-availability-heuristic",
+    "term": "가용성 휴리스틱",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "쉽게 떠오르는 사례를 근거로 확률을 과대평가하는 경향",
+    "example": "대박 난 지인 이야기를 들으면 성공 확률을 높게 봐요."
+  },
+  {
+    "id": "st-framing-effect",
+    "term": "프레이밍 효과",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "같은 정보도 어떻게 제시되느냐에 따라 선택이 달라지는 현상",
+    "example": "'성공률 90%'와 '실패율 10%'는 다르게 들려요."
+  },
+  {
+    "id": "st-illusion-of-control",
+    "term": "통제 착각",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "자기가 우연한 결과까지 좌우할 수 있다고 과하게 믿는 착각",
+    "example": "직접 고른 종목이 더 잘될 거라 믿는 경우예요."
+  },
+  {
+    "id": "st-home-bias",
+    "term": "홈 바이어스",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "익숙한 자국 자산에 지나치게 많이 투자하는 경향",
+    "example": "세계 시총에서 작은 비중인 시장에 자산 대부분을 두는 경우예요."
+  },
+  {
+    "id": "st-risk-adjusted-return",
+    "term": "위험조정수익률",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "감수한 위험의 크기를 고려해 다시 평가한 수익률",
+    "example": "수익률이 같다면 덜 출렁인 쪽이 더 높게 평가돼요."
+  },
+  {
+    "id": "st-relative-return",
+    "term": "상대수익",
+    "category": "투자 전략",
+    "level": 3,
+    "short": "벤치마크와 비교해 얼마나 잘했는지로 평가하는 수익",
+    "example": "시장이 -20%일 때 -10%면 손실이어도 이 기준으론 선방이에요."
+  },
+  {
+    "id": "st-kelly-criterion",
+    "term": "켈리 공식",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "승률과 손익비로 장기 성장에 최적인 베팅 비율을 계산하는 공식",
+    "example": "실전에서는 추정 오차 때문에 절반만 쓰는 '하프 켈리'를 쓰기도 해요."
+  },
+  {
+    "id": "st-sortino-ratio",
+    "term": "소르티노 지수",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "하락 쪽 변동성만 위험으로 보고 초과수익을 나눈 성과 지표",
+    "example": "오르는 출렁임은 벌주지 않는다는 점이 샤프지수와 달라요."
+  },
+  {
+    "id": "st-calmar-ratio",
+    "term": "칼마 지수",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "연 수익률을 최대낙폭으로 나눠 낙폭 대비 성과를 보는 지표",
+    "example": "깊은 하락을 견디기 힘든 투자자에게 유용해요."
+  },
+  {
+    "id": "st-information-ratio",
+    "term": "정보비율",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "벤치마크 대비 초과수익을 추적오차로 나눈 운용 성과 지표",
+    "example": "초과수익을 얼마나 꾸준히 냈는지 보여 줘요."
+  },
+  {
+    "id": "st-treynor-ratio",
+    "term": "트레이너 지수",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "베타 한 단위당 무위험 수익률을 넘는 초과수익을 나타낸 지표",
+    "example": "분산이 잘 된 포트폴리오 평가에 적합해요."
+  },
+  {
+    "id": "st-jensens-alpha",
+    "term": "젠센의 알파",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "CAPM이 예측한 기대수익률을 넘어선 실제 수익률의 차이",
+    "example": "베타를 감안하고도 남는 초과수익을 측정해요."
+  },
+  {
+    "id": "st-capm",
+    "term": "CAPM",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "베타로 자산의 기대수익률을 설명하는 자본자산가격결정모형",
+    "example": "기대수익률=무위험 수익률+베타×시장 위험 프리미엄이에요."
+  },
+  {
+    "id": "st-efficient-frontier",
+    "term": "효율적 투자선",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "같은 위험에서 가장 높은 기대수익을 내는 포트폴리오들을 이은 곡선",
+    "example": "이 곡선 아래 포트폴리오는 더 나은 대안이 있다는 뜻이에요."
+  },
+  {
+    "id": "st-fama-french-3",
+    "term": "파마-프렌치 3요인 모형",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "시장·규모·가치 세 요인으로 주식 수익률을 설명하는 모형",
+    "example": "이후 수익성·투자 요인을 더한 5요인 모형도 나왔어요."
+  },
+  {
+    "id": "st-volatility-drag",
+    "term": "변동성 드래그",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "출렁임이 클수록 실제 복리 수익률이 산술평균보다 낮아지는 현상",
+    "example": "+50% 뒤 -50%면 평균은 0%지만 실제로는 -25%예요."
+  },
+  {
+    "id": "st-overfitting",
+    "term": "과최적화",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "과거 데이터에 지나치게 맞춘 탓에 실전에서는 잘 통하지 않는 전략이 되는 문제",
+    "example": "변수를 많이 넣을수록 백테스트는 좋아 보이기 쉬워요."
+  },
+  {
+    "id": "st-look-ahead-bias",
+    "term": "미래 참조 편향",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "백테스트에 당시에는 알 수 없던 미래 정보를 실수로 쓰는 오류",
+    "example": "실적 발표 전 날짜에 확정 실적을 쓰는 경우가 대표적이에요."
+  },
+  {
+    "id": "st-market-neutral",
+    "term": "마켓 뉴트럴",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "포트폴리오 베타를 0 가까이 맞춰 시장 등락에 영향받지 않게 한 전략",
+    "example": "시장이 폭락해도 이론상 영향이 작아요."
+  },
+  {
+    "id": "st-pair-trading",
+    "term": "페어 트레이딩",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "함께 움직이던 두 종목의 가격 차가 벌어지면 다시 좁혀질 것에 거는 전략",
+    "example": "평균 회귀를 이용한 대표적 차익 전략이에요."
+  },
+  {
+    "id": "st-tail-hedge",
+    "term": "테일 헤지",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "드문 폭락에 대비해 작은 비용으로 보험 성격의 포지션을 잡는 전략",
+    "example": "평소엔 비용만 나가지만 급락장에서 크게 보상받도록 설계해요."
+  },
+  {
+    "id": "st-correlation-breakdown",
+    "term": "상관관계 붕괴",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "위기 때 평소 따로 움직이던 자산들이 한꺼번에 같이 떨어지는 현상",
+    "example": "분산해 둬도 위기에는 효과가 줄어들 수 있다는 뜻이에요."
+  },
+  {
+    "id": "st-risk-budgeting",
+    "term": "리스크 예산",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "전체 감수할 위험을 자산·전략별로 미리 나눠 배정하는 관리 방법",
+    "example": "금액이 아니라 위험의 몫을 배분해요."
+  },
+  {
+    "id": "st-var",
+    "term": "VaR(위험가치)",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "정해진 신뢰수준과 기간에서 날 수 있는 최대 손실 추정치",
+    "example": "'99% 확률로 하루 손실이 10억 원을 넘지 않는다'처럼 표현해요."
+  },
+  {
+    "id": "st-monte-carlo",
+    "term": "몬테카를로 시뮬레이션",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "무작위 시나리오를 수천 번 돌려 가능한 결과의 분포를 추정하는 방법",
+    "example": "은퇴 자금이 바닥날 확률을 추정할 때 자주 써요."
+  },
+  {
+    "id": "st-geometric-mean-return",
+    "term": "기하평균 수익률",
+    "category": "투자 전략",
+    "level": 4,
+    "short": "매 기간 수익률을 복리로 이어 붙여 구한 실제 평균 성장률",
+    "example": "+10%, -10%면 산술평균은 0%지만 이 값은 약 -0.5%예요."
+  }
+]
