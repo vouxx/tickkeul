@@ -144,6 +144,7 @@ export function AccountPage() {
         </>
       )}
 
+      {acc.error && <p className="rounded-xl bg-warn-soft p-3 text-sm text-warn-ink">{acc.error}</p>}
       <PasswordAuth />
     </div>
   );

@@ -8,6 +8,12 @@ const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 /** 이 앱의 테이블은 모두 financial_quiz 스키마에 있다 */
 export const SCHEMA = "financial_quiz";
 
+/**
+ * 같은 Supabase 프로젝트를 다른 서비스와 같이 쓰기 때문에, 티끌에서 가입한 계정에는
+ * 가입 정보(user_metadata.app)에 이 값을 남긴다. DB 트리거가 이걸 보고 티끌 회원으로 등록한다.
+ */
+export const APP_ID = "tickkeul";
+
 export const supabaseConfigured = Boolean(url && key);
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
