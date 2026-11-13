@@ -6,6 +6,7 @@ import { useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from 
 import { glossary } from "@/data/glossary";
 import type { Question } from "@/lib/course-types";
 import { useFocusLock } from "@/lib/focus";
+import { useGate } from "@/lib/gate";
 import { localDay, MAX_HEARTS, useProgress, XP_PER_LESSON } from "@/lib/progress";
 import {
   ChartView,
@@ -17,6 +18,7 @@ import {
   isFindCorrect,
   MatchView,
 } from "./QuestionViews";
+import { SignupNudge } from "./Gate";
 import { CandleFigure } from "./TechChart";
 
 export interface Item {
@@ -448,6 +450,8 @@ function Complete({
 }) {
   const { progress } = useProgress();
   const week = useWeek();
+  const gate = useGate();
+  const [later, setLater] = useState(false);
   const mm = Math.floor(result.seconds / 60);
   const ss = String(result.seconds % 60).padStart(2, "0");
   const titleText = mode === "review" ? "복습 완료!" : mode === "practice" ? "연습 완료!" : "레슨 완료!";
@@ -506,6 +510,10 @@ function Complete({
               ))}
             </ul>
           </section>
+        )}
+
+        {mode === "lesson" && gate.guest && !later && (
+          <SignupNudge xp={progress.xp} onLater={() => setLater(true)} />
         )}
 
         <section className="flex w-full flex-col gap-3 rounded-2xl bg-soft p-4">

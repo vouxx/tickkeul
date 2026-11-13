@@ -6,8 +6,10 @@ import { useRouter } from "next/navigation";
 import { useState, useSyncExternalStore } from "react";
 import { getProblem, problems } from "@/data/problems";
 import { pct, returns, settle, won } from "@/lib/game";
+import { FREE_PLAYS_PER_DAY, playsToday, useGate } from "@/lib/gate";
 import { useGame } from "@/lib/store";
 import { DISCLOSURE_LABEL, type Action, type Answer, type Problem } from "@/lib/types";
+import { SignupGate } from "./Gate";
 import { PriceChart } from "./PriceChart";
 
 const WEIGHTS = [0.1, 0.3, 0.5];
@@ -69,8 +71,9 @@ export function Play({ id }: { id?: string }) {
   const { state, submit } = useGame();
   const [pickedId, setPickedId] = useState<string | null>(null);
   const [result, setResult] = useState<Answer | null>(null);
+  const gate = useGate();
 
-  if (!mounted) return <div className="h-96 animate-pulse rounded-2xl bg-line-soft" />;
+  if (!mounted || !gate.ready) return <div className="h-96 animate-pulse rounded-2xl bg-line-soft" />;
 
   const solved = new Set(state.answers.map((a) => a.problemId));
   const problem =
@@ -104,6 +107,15 @@ export function Play({ id }: { id?: string }) {
 
   if (result) return <PlayResult problem={problem} answer={result} onNext={onNext} />;
 
+  const left = FREE_PLAYS_PER_DAY - playsToday(state.answers);
+  if (gate.guest && left <= 0)
+    return (
+      <div className="flex flex-col gap-4">
+        <h1 className="font-display text-2xl">모의투자</h1>
+        <SignupGate reason="play" back="/records" backLabel="내 기록 보기" />
+      </div>
+    );
+
   return (
     <div className="flex flex-col gap-4">
       <header className="flex items-center justify-between">
@@ -118,6 +130,7 @@ export function Play({ id }: { id?: string }) {
       </header>
       <p className="text-[13px] text-muted">
         {DISCLOSURE_LABEL[problem.type]} 공시 · 문제 {problems.indexOf(problem) + 1} / {problems.length}
+        {gate.guest && <b className="text-accent-ink"> · 오늘 무료 {left}판 남음</b>}
       </p>
       <DocCard problem={problem} revealed={false} />
       <Decision key={problem.id} cash={state.cash} onSubmit={onSubmit} />

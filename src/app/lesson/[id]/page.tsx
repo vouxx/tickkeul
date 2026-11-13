@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { LessonGate } from "@/components/Gate";
 import { LessonPlayer } from "@/components/LessonPlayer";
 import { allLessons, getLesson } from "@/data/course";
 import { qKey } from "@/lib/course-types";
@@ -15,12 +16,14 @@ async function LessonContent({ params }: Pick<PageProps<"/lesson/[id]">, "params
 
   const items = lesson.questions.map((q, i) => ({ q, key: qKey(lesson.id, i) }));
   return (
-    <LessonPlayer
-      key={lesson.id}
-      items={items}
-      lessonId={lesson.id}
-      title={`${lesson.unit.title} · ${lesson.title}`}
-    />
+    <LessonGate lessonId={lesson.id}>
+      <LessonPlayer
+        key={lesson.id}
+        items={items}
+        lessonId={lesson.id}
+        title={`${lesson.unit.title} · ${lesson.title}`}
+      />
+    </LessonGate>
   );
 }
 

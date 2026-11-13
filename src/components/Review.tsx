@@ -6,8 +6,10 @@ import { useState, useSyncExternalStore } from "react";
 import { allLessons, getLesson, getQuestionByKey } from "@/data/course";
 import { getProblem } from "@/data/problems";
 import { qKey, type Question } from "@/lib/course-types";
+import { useGate } from "@/lib/gate";
 import { MAX_HEARTS, useProgress } from "@/lib/progress";
 import { DISCLOSURE_LABEL } from "@/lib/types";
+import { SignupGate } from "./Gate";
 import { LessonPlayer, type Item } from "./LessonPlayer";
 
 const noop = () => () => {};
@@ -35,8 +37,16 @@ export function Review() {
   const mounted = useMounted();
   const { progress } = useProgress();
   const [started, setStarted] = useState<{ items: Item[]; title: string } | null>(null);
+  const gate = useGate();
 
-  if (!mounted) return <div className="h-96 animate-pulse rounded-2xl bg-line-soft" />;
+  if (!mounted || !gate.ready) return <div className="h-96 animate-pulse rounded-2xl bg-line-soft" />;
+  if (gate.guest)
+    return (
+      <div className="flex flex-col gap-4">
+        <h1 className="font-display text-2xl">복습</h1>
+        <SignupGate reason="review" />
+      </div>
+    );
   if (started)
     return (
       <LessonPlayer items={started.items} mode="review" title={started.title} onExit={() => setStarted(null)} />

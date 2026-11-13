@@ -1,13 +1,15 @@
 "use client";
 
-import { Check, Layers, Lightbulb, Puzzle, X } from "lucide-react";
+import { Check, Layers, Lightbulb, Lock, Puzzle, X } from "lucide-react";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { CATEGORIES, glossary, type Term, type TermCategory } from "@/data/glossary";
 import { LEVELS, levelInfo, type Level } from "@/data/levels";
 import { questionBank, type BankQuestion } from "@/data/questions";
 import type { ChoiceQ } from "@/lib/course-types";
+import { FREE_SETS, useGate } from "@/lib/gate";
 import { useProgress, WORD_MASTERED } from "@/lib/progress";
 import { readKey, STORAGE_KEYS } from "@/lib/storage-keys";
+import { SignupSheet } from "./Gate";
 import { LevelIcon } from "./icons";
 import { LessonPlayer, type Item } from "./LessonPlayer";
 
@@ -102,6 +104,8 @@ export function Words() {
   const [view, setView] = useState<View>({ kind: "home" });
   const [level, setLevelState] = useState<Level | null>(null);
   const [tab, setTab] = useState<Tab>("stage");
+  const [sheet, setSheet] = useState(false);
+  const gate = useGate();
 
   const stagesByLevel = useMemo(() => {
     const order = (t: Term) => CATEGORIES.indexOf(t.category);
@@ -118,6 +122,8 @@ export function Words() {
 
   if (!mounted) return <div className="h-96 animate-pulse rounded-2xl bg-card" />;
 
+  /** 비회원이면 레벨마다 앞쪽 몇 세트만 열어 두고, 나머지는 가입 안내를 띄운다 */
+  const locked = (i: number) => gate.guest && i >= FREE_SETS;
   const lv = level ?? progress.level ?? readLevel();
   const setLevel = (l: Level) => {
     setLevelState(l);
@@ -245,6 +251,8 @@ export function Words() {
         <StageList
           stages={stages}
           mastered={mastered}
+          locked={locked}
+          onLocked={() => setSheet(true)}
           onCards={(deck) => setView({ kind: "cards", deck: shuffled(deck) })}
           onQuiz={(terms, i) =>
             setView({ kind: "quiz", items: termQuiz(terms), title: `${info.name} 스테이지 ${i + 1}` })
@@ -257,13 +265,17 @@ export function Words() {
         <PracticeSets
           sets={chunk(bank, SET_SIZE)}
           solved={(id) => (progress.words[`q:${id}`] ?? 0) > 0}
+          locked={locked}
           onStart={(qs, i) =>
-            setView({ kind: "quiz", items: bankItems(qs), title: `${info.name} 실전 세트 ${i + 1}` })
+            locked(i)
+              ? setSheet(true)
+              : setView({ kind: "quiz", items: bankItems(qs), title: `${info.name} 실전 세트 ${i + 1}` })
           }
         />
       )}
 
       {tab === "dict" && <Dictionary mastered={mastered} />}
+      {sheet && <SignupSheet reason="words" onClose={() => setSheet(false)} />}
     </div>
   );
 }
@@ -271,11 +283,15 @@ export function Words() {
 function StageList({
   stages,
   mastered,
+  locked,
+  onLocked,
   onCards,
   onQuiz,
 }: {
   stages: Term[][];
   mastered: (id: string) => boolean;
+  locked: (index: number) => boolean;
+  onLocked: () => void;
   onCards: (deck: Term[]) => void;
   onQuiz: (terms: Term[], index: number) => void;
 }) {
@@ -316,6 +332,15 @@ function StageList({
                 {done}/{s.length}
               </span>
             </div>
+            {locked(i) ? (
+              <button
+                onClick={onLocked}
+                className="mt-3 w-full rounded-xl border-2 border-accent-ring py-2.5 text-sm font-bold text-accent"
+              >
+                <Lock size={16} className="mr-1 inline -mt-0.5" aria-hidden="true" />
+                가입하면 열려요
+              </button>
+            ) : (
             <div className="mt-3 grid grid-cols-2 gap-2 text-sm font-bold">
               <button onClick={() => onCards(s)} className="rounded-xl border-2 border-line py-2.5">
                 <Layers size={16} className="mr-1 inline -mt-0.5" aria-hidden="true" />
@@ -326,6 +351,7 @@ function StageList({
                 퀴즈 {s.length}문제
               </button>
             </div>
+            )}
           </li>
         );
       })}
@@ -336,10 +362,12 @@ function StageList({
 function PracticeSets({
   sets,
   solved,
+  locked,
   onStart,
 }: {
   sets: BankQuestion[][];
   solved: (id: string) => boolean;
+  locked: (index: number) => boolean;
   onStart: (qs: BankQuestion[], index: number) => void;
 }) {
   if (!sets.length) return <p className="py-8 text-center text-sm text-muted">이 레벨의 실전 문제가 없어요.</p>;
@@ -353,7 +381,8 @@ function PracticeSets({
           return (
             <li key={i}>
               <button onClick={() => onStart(s, i)} className="w-full rounded-2xl border border-line p-4 text-left">
-                <p className="font-bold text-accent-ink">
+                <p className="flex items-center gap-1 font-bold text-accent-ink">
+                  {locked(i) && <Lock size={14} className="text-accent" aria-label="가입하면 열려요" />}
                   실전 세트 {i + 1}
                 </p>
                 <p className="mt-0.5 truncate text-xs text-muted">{cats}</p>

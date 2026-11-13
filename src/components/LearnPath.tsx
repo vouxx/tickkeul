@@ -7,7 +7,9 @@ import { allLessons, currentLesson, isUnlocked, UNIT_LEVEL, units } from "@/data
 import { termOfDay } from "@/data/glossary";
 import { levelInfo } from "@/data/levels";
 import type { Unit } from "@/lib/course-types";
+import { isFreeLesson, useGate } from "@/lib/gate";
 import { DAILY_GOAL_XP, localDay, useProgress, WORD_MASTERED, type Progress } from "@/lib/progress";
+import { SignupSheet } from "./Gate";
 
 const noop = () => () => {};
 const useMounted = () => useSyncExternalStore(noop, () => true, () => false);
@@ -38,9 +40,16 @@ export function DailyGoal() {
 // 레슨 버튼이 좌우로 흔들리며 내려가는 길
 const OFFSETS = [-60, -14, 40, -8, -60, -14, 40];
 
-type NodeState = "done" | "current" | "open" | "locked";
+/** member: 순서상 열렸지만 가입해야 들어갈 수 있는 레슨 */
+type NodeState = "done" | "current" | "open" | "locked" | "member";
 
 function Circle({ state }: { state: NodeState }) {
+  if (state === "member")
+    return (
+      <span className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-accent-ring bg-bg text-accent shadow-[0_5px_0_var(--accent-ring)]">
+        <Lock size={22} strokeWidth={2.2} aria-hidden="true" />
+      </span>
+    );
   if (state === "locked")
     return (
       <span className="flex h-14 w-14 items-center justify-center rounded-full bg-line-soft shadow-[0_5px_0_var(--line)]">
@@ -64,8 +73,32 @@ function Circle({ state }: { state: NodeState }) {
   );
 }
 
-function LessonNode({ title, state, href, index }: { title: string; state: NodeState; href: string; index: number }) {
+function LessonNode({
+  title,
+  state,
+  href,
+  index,
+  onGate,
+}: {
+  title: string;
+  state: NodeState;
+  href: string;
+  index: number;
+  onGate: () => void;
+}) {
   const x = OFFSETS[index % OFFSETS.length];
+
+  if (state === "member") {
+    return (
+      <li className="flex flex-col items-center gap-1" style={{ transform: `translateX(${x}px)` }}>
+        <button onClick={onGate} aria-label={`${title} (가입하면 열려요)`} className="rounded-full">
+          <Circle state="member" />
+        </button>
+        <span className="mt-1 text-xs font-bold">{title}</span>
+        <span className="text-[11px] font-bold text-accent">가입하면 열려요</span>
+      </li>
+    );
+  }
 
   if (state === "current") {
     return (
@@ -141,7 +174,9 @@ function UnitHeader({ unit, index, progress }: { unit: Unit; index: number; prog
 export function LearnPath() {
   const mounted = useMounted();
   const { progress } = useProgress();
-  if (!mounted) return <div className="h-96 animate-pulse rounded-3xl bg-line-soft" />;
+  const gate = useGate();
+  const [sheet, setSheet] = useState(false);
+  if (!mounted || !gate.ready) return <div className="h-96 animate-pulse rounded-3xl bg-line-soft" />;
 
   const current = currentLesson(progress.completed, progress.level);
 
@@ -167,15 +202,26 @@ export function LearnPath() {
               {u.lessons.map((l, i) => {
                 const done = progress.completed.includes(l.id);
                 const unlocked = isUnlocked(l.id, progress.completed, progress.level);
-                const state: NodeState =
+                let state: NodeState =
                   current?.id === l.id ? "current" : done ? "done" : unlocked ? "open" : "locked";
-                return <LessonNode key={l.id} title={l.title} state={state} href={`/lesson/${l.id}`} index={i} />;
+                if (gate.guest && state !== "locked" && !isFreeLesson(l.id)) state = "member";
+                return (
+                  <LessonNode
+                    key={l.id}
+                    title={l.title}
+                    state={state}
+                    href={`/lesson/${l.id}`}
+                    index={i}
+                    onGate={() => setSheet(true)}
+                  />
+                );
               })}
             </ol>
           </div>
         );
       })}
       <CourseEnd done={progress.completed.length} total={allLessons.length} />
+      {sheet && <SignupSheet reason="unit" onClose={() => setSheet(false)} />}
     </div>
   );
 }

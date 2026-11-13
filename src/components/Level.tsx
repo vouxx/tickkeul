@@ -7,6 +7,7 @@ import { useState, useSyncExternalStore } from "react";
 import { LEVELS, levelInfo, type Level } from "@/data/levels";
 import { questionBank, type BankQuestion } from "@/data/questions";
 import { useFocusLock } from "@/lib/focus";
+import { useGate } from "@/lib/gate";
 import { useProgress } from "@/lib/progress";
 import { LevelIcon } from "./icons";
 
@@ -77,6 +78,7 @@ export function LevelPage() {
   const mounted = useMounted();
   const router = useRouter();
   const { progress, setLevel } = useProgress();
+  const gate = useGate();
   const [phase, setPhase] = useState<Phase>({ kind: "pick" });
   const [chosen, setChosen] = useState<Level | null>(null);
   const [answer, setAnswer] = useState<number | null>(null);
@@ -202,6 +204,11 @@ export function LevelPage() {
                 </>
               )}
             </p>
+            {rec > 1 && gate.guest && (
+              <p className="mt-2 rounded-xl bg-accent-soft px-3 py-2.5 text-[13px] font-bold text-accent-ink">
+                가입 전에는 1단원만 열려요. 가입하면 {info.name} 단원부터 바로 시작할 수 있어요.
+              </p>
+            )}
           </div>
           <section className="w-full rounded-2xl border border-line px-4 py-2 text-left">
             <h2 className="sr-only">레벨별 결과</h2>

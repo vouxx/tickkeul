@@ -2,6 +2,7 @@
 
 import { Check, ChevronLeft, ChevronRight, Cloud, LogIn, Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { levelInfo } from "@/data/levels";
 import {
@@ -15,6 +16,7 @@ import {
   updatePassword,
   useAccount,
 } from "@/lib/account";
+import { takeReturn } from "@/lib/gate";
 import { useProgress } from "@/lib/progress";
 import { fetchAuthProviders, supabaseConfigured, type Provider } from "@/lib/supabase";
 
@@ -69,6 +71,15 @@ function BackHeader({ href, title }: { href: string; title?: string }) {
 export function AccountPage() {
   const acc = useAccount();
   const [providers, setProviders] = useState<Record<"email" | Provider, boolean> | null>(null);
+  const router = useRouter();
+  const signedIn = !!acc.user;
+
+  // 잠긴 화면에서 가입하러 왔다면, 로그인되는 순간 그 화면으로 돌려보낸다
+  useEffect(() => {
+    if (!signedIn) return;
+    const next = takeReturn();
+    if (next) router.replace(next);
+  }, [signedIn, router]);
 
   useEffect(() => {
     let alive = true;
